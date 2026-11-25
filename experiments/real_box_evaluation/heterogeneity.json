@@ -1,0 +1,389 @@
+{
+  "dataset": [
+    {
+      "dataset_id": "gharchive",
+      "datasets": {
+        "gharchive": 0.0640432098765432
+      },
+      "equal_weight_macro": 0.0640432098765432
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "k": [
+    {
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.02546296296296296,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.01273148148148148
+    },
+    {
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.16666666666666666,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.08333333333333333
+    }
+  ],
+  "weight": [
+    {
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.1381172839506173,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.06905864197530864
+    },
+    {
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.05092592592592592,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.02546296296296296
+    },
+    {
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0030864197530864196,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0015432098765432098
+    }
+  ],
+  "epsilon": [
+    {
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.18101851851851852,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.09050925925925926
+    },
+    {
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.01111111111111111,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.005555555555555555
+    },
+    {
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "mechanism": [
+    {
+      "mechanism": "M1",
+      "datasets": {
+        "gharchive": 0.05781893004115227,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.028909465020576133
+    },
+    {
+      "mechanism": "M2",
+      "datasets": {
+        "gharchive": 0.07026748971193415,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.035133744855967076
+    }
+  ],
+  "dataset_k": [
+    {
+      "dataset_id": "gharchive",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.02546296296296296
+      },
+      "equal_weight_macro": 0.02546296296296296
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.16666666666666666
+      },
+      "equal_weight_macro": 0.16666666666666666
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "k_weight": [
+    {
+      "k": 5,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "k": 5,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "k": 5,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "k": 10,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.06712962962962962,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03356481481481481
+    },
+    {
+      "k": 10,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.009259259259259259,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004629629629629629
+    },
+    {
+      "k": 10,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "k": 25,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.3472222222222222,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.1736111111111111
+    },
+    {
+      "k": 25,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.1435185185185185,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.07175925925925924
+    },
+    {
+      "k": 25,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.009259259259259259,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004629629629629629
+    }
+  ],
+  "dataset_epsilon": [
+    {
+      "dataset_id": "gharchive",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.18101851851851852
+      },
+      "equal_weight_macro": 0.18101851851851852
+    },
+    {
+      "dataset_id": "gharchive",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.01111111111111111
+      },
+      "equal_weight_macro": 0.01111111111111111
+    },
+    {
+      "dataset_id": "gharchive",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "epsilon": 0.5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "epsilon": 1.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "epsilon": 2.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "mechanism_epsilon": [
+    {
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.16358024691358022,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.08179012345679011
+    },
+    {
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.009876543209876541,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004938271604938271
+    },
+    {
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.19845679012345677,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.09922839506172838
+    },
+    {
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.012345679012345678,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.006172839506172839
+    },
+    {
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "union_status": [
+    {
+      "union_status": "COUNT_FEASIBLE_EXACT",
+      "datasets": {
+        "gharchive": 0.0640045156310023,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03200225781550115
+    },
+    {
+      "union_status": "EVENT_INCONSISTENT_FALLBACK",
+      "datasets": {
+        "gharchive": 0.07124183006535947,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03562091503267974
+    }
+  ],
+  "direct_status": [
+    {
+      "direct_status": "COUNT_FEASIBLE_EXACT",
+      "datasets": {
+        "gharchive": 0.06408352011355894,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03204176005677947
+    },
+    {
+      "direct_status": "EVENT_INCONSISTENT_FALLBACK",
+      "datasets": {
+        "gharchive": 0.0642636684303351,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03213183421516755
+    }
+  ]
+}

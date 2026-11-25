@@ -1,0 +1,9 @@
+{
+  "rows": 43740,
+  "truths": 81,
+  "strata": 108,
+  "tlc_stratum_n": 450,
+  "github_stratum_n": 360,
+  "max_abs_S_join_gap": 0.0,
+  "max_abs_regret_join_gap": 0.0
+}

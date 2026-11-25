@@ -1,0 +1,270 @@
+{
+  "by_dataset_mechanism_epsilon": [
+    {
+      "event": "union",
+      "dataset_id": "gharchive",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "n": 3240,
+      "n_fallback": 49
+    },
+    {
+      "event": "union",
+      "dataset_id": "gharchive",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "n": 3240,
+      "n_fallback": 36
+    },
+    {
+      "event": "union",
+      "dataset_id": "gharchive",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "n": 3240,
+      "n_fallback": 28
+    },
+    {
+      "event": "union",
+      "dataset_id": "gharchive",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "n": 3240,
+      "n_fallback": 23
+    },
+    {
+      "event": "union",
+      "dataset_id": "gharchive",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "n": 3240,
+      "n_fallback": 7
+    },
+    {
+      "event": "union",
+      "dataset_id": "gharchive",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "n": 3240,
+      "n_fallback": 5
+    },
+    {
+      "event": "union",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "n": 4050,
+      "n_fallback": 21
+    },
+    {
+      "event": "union",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "n": 4050,
+      "n_fallback": 7
+    },
+    {
+      "event": "union",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "n": 4050,
+      "n_fallback": 11
+    },
+    {
+      "event": "union",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "n": 4050,
+      "n_fallback": 4
+    },
+    {
+      "event": "union",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "n": 4050,
+      "n_fallback": 5
+    },
+    {
+      "event": "union",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "n": 4050,
+      "n_fallback": 0
+    },
+    {
+      "event": "direct",
+      "dataset_id": "gharchive",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "n": 3240,
+      "n_fallback": 49
+    },
+    {
+      "event": "direct",
+      "dataset_id": "gharchive",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "n": 3240,
+      "n_fallback": 36
+    },
+    {
+      "event": "direct",
+      "dataset_id": "gharchive",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "n": 3240,
+      "n_fallback": 28
+    },
+    {
+      "event": "direct",
+      "dataset_id": "gharchive",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "n": 3240,
+      "n_fallback": 25
+    },
+    {
+      "event": "direct",
+      "dataset_id": "gharchive",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "n": 3240,
+      "n_fallback": 33
+    },
+    {
+      "event": "direct",
+      "dataset_id": "gharchive",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "n": 3240,
+      "n_fallback": 19
+    },
+    {
+      "event": "direct",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "n": 4050,
+      "n_fallback": 22
+    },
+    {
+      "event": "direct",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "n": 4050,
+      "n_fallback": 8
+    },
+    {
+      "event": "direct",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "n": 4050,
+      "n_fallback": 11
+    },
+    {
+      "event": "direct",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "n": 4050,
+      "n_fallback": 12
+    },
+    {
+      "event": "direct",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "n": 4050,
+      "n_fallback": 15
+    },
+    {
+      "event": "direct",
+      "dataset_id": "tlc_yellow",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "n": 4050,
+      "n_fallback": 2
+    }
+  ],
+  "union_raw_minus_original": {
+    "sep": {
+      "n_exact": 43544,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 1.1368683772161603e-13,
+      "min_increase": -2.2737367544323206e-13
+    },
+    "rank": {
+      "n_exact": 43544,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 1.8189894035458565e-12,
+      "min_increase": -1.8189894035458565e-12
+    },
+    "pair": {
+      "n_exact": 43544,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 1.8189894035458565e-12,
+      "min_increase": -1.8189894035458565e-12
+    },
+    "block5": {
+      "n_exact": 43544,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 9.094947017729282e-13,
+      "min_increase": -9.094947017729282e-13
+    },
+    "strong": {
+      "n_exact": 43544,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 4.547473508864641e-13,
+      "min_increase": -2.2737367544323206e-13
+    }
+  },
+  "union_closed_minus_raw_decision": {
+    "n_changed_gt_1e-8": 0,
+    "min": -7.275957614183426e-12,
+    "max": 0.0
+  },
+  "direct_raw_minus_original": {
+    "sep": {
+      "n_exact": 43480,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 1.1368683772161603e-13,
+      "min_increase": -1.1368683772161603e-13
+    },
+    "rank": {
+      "n_exact": 43480,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 9.094947017729282e-13,
+      "min_increase": -9.094947017729282e-13
+    },
+    "pair": {
+      "n_exact": 43480,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 4.547473508864641e-13,
+      "min_increase": -9.094947017729282e-13
+    },
+    "block5": {
+      "n_exact": 43480,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 4.547473508864641e-13,
+      "min_increase": -4.547473508864641e-13
+    },
+    "strong": {
+      "n_exact": 43480,
+      "n_raw_increase_gt_1e-8": 0,
+      "max_increase": 1.1368683772161603e-13,
+      "min_increase": -1.1368683772161603e-13
+    }
+  },
+  "direct_closed_minus_raw_decision": {
+    "n_changed_gt_1e-8": 0,
+    "min": -7.275957614183426e-12,
+    "max": 0.0
+  }
+}

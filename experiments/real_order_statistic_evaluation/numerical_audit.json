@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "check": "coupled envelope <= rank1 coupled",
+      "n": 43740,
+      "n_positive_gap_gt_1e-8": 0,
+      "n_material": 0,
+      "max_positive_gap": 0.0,
+      "max_abs_gap": 257.0
+    },
+    {
+      "check": "coupled envelope <= strong envelope",
+      "n": 43740,
+      "n_positive_gap_gt_1e-8": 0,
+      "n_material": 0,
+      "max_positive_gap": 0.0,
+      "max_abs_gap": 541.0
+    },
+    {
+      "check": "strong envelope <= rank1 strong",
+      "n": 43740,
+      "n_positive_gap_gt_1e-8": 0,
+      "n_material": 0,
+      "max_positive_gap": 0.0,
+      "max_abs_gap": 792.0
+    },
+    {
+      "check": "rank1 coupled <= rank1 strong",
+      "n": 43740,
+      "n_positive_gap_gt_1e-8": 0,
+      "n_material": 0,
+      "max_positive_gap": 0.0,
+      "max_abs_gap": 1264.0
+    },
+    {
+      "check": "k<=5 envelope identity",
+      "n": 14580,
+      "max_abs_gap": 0.0
+    }
+  ],
+  "nonfinite": 0,
+  "n_threshold_near_ties": 0,
+  "threshold_near_ties": []
+}

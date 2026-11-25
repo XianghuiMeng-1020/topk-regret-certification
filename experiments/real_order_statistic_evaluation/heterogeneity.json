@@ -1,0 +1,1696 @@
+{
+  "dataset": [
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "gharchive",
+      "datasets": {
+        "gharchive": 0.10756172839506171
+      },
+      "equal_weight_macro": 0.10756172839506171
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "tlc_yellow",
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "gharchive",
+      "datasets": {
+        "gharchive": 0.008230452674897118
+      },
+      "equal_weight_macro": 0.008230452674897118
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "tlc_yellow",
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "gharchive",
+      "datasets": {
+        "gharchive": 0.0008230452674897119
+      },
+      "equal_weight_macro": 0.0008230452674897119
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "tlc_yellow",
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "gharchive",
+      "datasets": {
+        "gharchive": 0.10015432098765431
+      },
+      "equal_weight_macro": 0.10015432098765431
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "tlc_yellow",
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "k": [
+    {
+      "effect": "gain_rank1",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.07716049382716049,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.038580246913580245
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.24552469135802468,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.12276234567901234
+    },
+    {
+      "effect": "gain_os",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.006172839506172839,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0030864197530864196
+    },
+    {
+      "effect": "gain_os",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.018518518518518517,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.009259259259259259
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.0024691358024691358,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0012345679012345679
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.07098765432098765,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.035493827160493825
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.2294753086419753,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.11473765432098765
+    }
+  ],
+  "weight": [
+    {
+      "effect": "gain_rank1",
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.2300925925925926,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.1150462962962963
+    },
+    {
+      "effect": "gain_rank1",
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.08333333333333333,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.041666666666666664
+    },
+    {
+      "effect": "gain_rank1",
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.009259259259259259,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004629629629629629
+    },
+    {
+      "effect": "gain_os",
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.012345679012345678,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.006172839506172839
+    },
+    {
+      "effect": "gain_os",
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.009259259259259259,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004629629629629629
+    },
+    {
+      "effect": "gain_os",
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0030864197530864196,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0015432098765432098
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.0024691358024691358,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0012345679012345679
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.22021604938271602,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.11010802469135801
+    },
+    {
+      "effect": "gain_strong_refine",
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.07407407407407407,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.037037037037037035
+    },
+    {
+      "effect": "gain_strong_refine",
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.006172839506172839,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0030864197530864196
+    }
+  ],
+  "epsilon": [
+    {
+      "effect": "gain_rank1",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.2567901234567901,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.12839506172839504
+    },
+    {
+      "effect": "gain_rank1",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.06589506172839506,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03294753086419753
+    },
+    {
+      "effect": "gain_rank1",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.024691358024691357,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.012345679012345678
+    },
+    {
+      "effect": "gain_os",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.0024691358024691358,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0012345679012345679
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.23456790123456792,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.11728395061728396
+    },
+    {
+      "effect": "gain_strong_refine",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.06589506172839506,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03294753086419753
+    },
+    {
+      "effect": "gain_strong_refine",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "mechanism": [
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M1",
+      "datasets": {
+        "gharchive": 0.1074074074074074,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0537037037037037
+    },
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M2",
+      "datasets": {
+        "gharchive": 0.10771604938271605,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.053858024691358024
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M1",
+      "datasets": {
+        "gharchive": 0.008230452674897118,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004115226337448559
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M2",
+      "datasets": {
+        "gharchive": 0.008230452674897118,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004115226337448559
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M1",
+      "datasets": {
+        "gharchive": 0.0006172839506172839,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.00030864197530864197
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M2",
+      "datasets": {
+        "gharchive": 0.0010288065843621398,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0005144032921810699
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M1",
+      "datasets": {
+        "gharchive": 0.09979423868312758,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.04989711934156379
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M2",
+      "datasets": {
+        "gharchive": 0.10051440329218106,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.05025720164609053
+    }
+  ],
+  "dataset_k": [
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "gharchive",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "gharchive",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.07716049382716049
+      },
+      "equal_weight_macro": 0.07716049382716049
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "gharchive",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.24552469135802468
+      },
+      "equal_weight_macro": 0.24552469135802468
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "tlc_yellow",
+      "k": 5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "gharchive",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "gharchive",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.006172839506172839
+      },
+      "equal_weight_macro": 0.006172839506172839
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "gharchive",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.018518518518518517
+      },
+      "equal_weight_macro": 0.018518518518518517
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "tlc_yellow",
+      "k": 5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "gharchive",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "gharchive",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "gharchive",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.0024691358024691358
+      },
+      "equal_weight_macro": 0.0024691358024691358
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "tlc_yellow",
+      "k": 5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "gharchive",
+      "k": 5,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "gharchive",
+      "k": 10,
+      "datasets": {
+        "gharchive": 0.07098765432098765
+      },
+      "equal_weight_macro": 0.07098765432098765
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "gharchive",
+      "k": 25,
+      "datasets": {
+        "gharchive": 0.2294753086419753
+      },
+      "equal_weight_macro": 0.2294753086419753
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "tlc_yellow",
+      "k": 5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "dataset_epsilon": [
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "gharchive",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.2567901234567901
+      },
+      "equal_weight_macro": 0.2567901234567901
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "gharchive",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.06589506172839506
+      },
+      "equal_weight_macro": 0.06589506172839506
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "gharchive",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 0.5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 1.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 2.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "gharchive",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.024691358024691357
+      },
+      "equal_weight_macro": 0.024691358024691357
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "gharchive",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "gharchive",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 0.5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 1.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 2.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "gharchive",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.0024691358024691358
+      },
+      "equal_weight_macro": 0.0024691358024691358
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "gharchive",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "gharchive",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 0.5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 1.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 2.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "gharchive",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.23456790123456792
+      },
+      "equal_weight_macro": 0.23456790123456792
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "gharchive",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.06589506172839506
+      },
+      "equal_weight_macro": 0.06589506172839506
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "gharchive",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 0.5,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 1.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "dataset_id": "tlc_yellow",
+      "epsilon": 2.0,
+      "datasets": {
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "k_weight": [
+    {
+      "effect": "gain_rank1",
+      "k": 5,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 5,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 5,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 10,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.2037037037037037,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.10185185185185185
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 10,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.027777777777777776,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.013888888888888888
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 25,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.48657407407407405,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.24328703703703702
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 25,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.2222222222222222,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.1111111111111111
+    },
+    {
+      "effect": "gain_rank1",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.027777777777777776,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.013888888888888888
+    },
+    {
+      "effect": "gain_os",
+      "k": 5,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "k": 5,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "k": 5,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "k": 10,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.009259259259259259,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004629629629629629
+    },
+    {
+      "effect": "gain_os",
+      "k": 10,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.009259259259259259,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004629629629629629
+    },
+    {
+      "effect": "gain_os",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "k": 25,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.027777777777777776,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.013888888888888888
+    },
+    {
+      "effect": "gain_os",
+      "k": 25,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.018518518518518517,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.009259259259259259
+    },
+    {
+      "effect": "gain_os",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.009259259259259259,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004629629629629629
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 5,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 5,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 5,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 10,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 10,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 25,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.007407407407407408,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.003703703703703704
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 25,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 5,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 5,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 5,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 10,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.19444444444444445,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.09722222222222222
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 10,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.018518518518518517,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.009259259259259259
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 25,
+      "weight_family": "uniform",
+      "datasets": {
+        "gharchive": 0.4662037037037037,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.23310185185185184
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 25,
+      "weight_family": "dcg",
+      "datasets": {
+        "gharchive": 0.2037037037037037,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.10185185185185185
+    },
+    {
+      "effect": "gain_strong_refine",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "datasets": {
+        "gharchive": 0.018518518518518517,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.009259259259259259
+    }
+  ],
+  "mechanism_epsilon": [
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.25740740740740736,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.12870370370370368
+    },
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.06481481481481483,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03240740740740741
+    },
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.2561728395061728,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.1280864197530864
+    },
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0669753086419753,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03348765432098765
+    },
+    {
+      "effect": "gain_rank1",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.024691358024691357,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.012345679012345678
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.024691358024691357,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.012345679012345678
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.001851851851851852,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.000925925925925926
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.0030864197530864196,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0015432098765432098
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.23456790123456792,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.11728395061728396
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.06481481481481483,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03240740740740741
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "datasets": {
+        "gharchive": 0.23456790123456792,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.11728395061728396
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "datasets": {
+        "gharchive": 0.0669753086419753,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.03348765432098765
+    },
+    {
+      "effect": "gain_strong_refine",
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    }
+  ],
+  "selected_s": [
+    {
+      "effect": "gain_rank1",
+      "s_group": "s1",
+      "datasets": {
+        "gharchive": 0.009694843158581363,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004847421579290682
+    },
+    {
+      "effect": "gain_rank1",
+      "s_group": "s_gt1",
+      "datasets": {
+        "gharchive": 0.3845911875004579,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.19229559375022895
+    },
+    {
+      "effect": "gain_os",
+      "s_group": "s1",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "s_group": "s_gt1",
+      "datasets": {
+        "gharchive": 0.02069650788768452,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.01034825394384226
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "s_group": "s1",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "s_group": "s_gt1",
+      "datasets": {
+        "gharchive": 0.0014765596160944998,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0007382798080472499
+    },
+    {
+      "effect": "gain_strong_refine",
+      "s_group": "s1",
+      "datasets": {
+        "gharchive": 0.009694843158581363,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.004847421579290682
+    },
+    {
+      "effect": "gain_strong_refine",
+      "s_group": "s_gt1",
+      "datasets": {
+        "gharchive": 0.36537123922886783,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.18268561961443391
+    }
+  ],
+  "margin": [
+    {
+      "effect": "gain_rank1",
+      "margin_group": "within_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.15582156957614987,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.07791078478807494
+    },
+    {
+      "effect": "gain_rank1",
+      "margin_group": "above_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.00718671640879022,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.00359335820439511
+    },
+    {
+      "effect": "gain_rank1",
+      "margin_group": "nonpositive",
+      "datasets": {
+        "gharchive": 0.21057904070670966,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.10528952035335483
+    },
+    {
+      "effect": "gain_os",
+      "margin_group": "within_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.01006268374105019,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.005031341870525095
+    },
+    {
+      "effect": "gain_os",
+      "margin_group": "above_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_os",
+      "margin_group": "nonpositive",
+      "datasets": {
+        "gharchive": 0.018192058837220127,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.009096029418610064
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "margin_group": "within_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.0006224712107065049,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0003112356053532524
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "margin_group": "above_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.0,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0
+    },
+    {
+      "effect": "gain_coupled_refine",
+      "margin_group": "nonpositive",
+      "datasets": {
+        "gharchive": 0.003686635944700461,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.0018433179723502304
+    },
+    {
+      "effect": "gain_strong_refine",
+      "margin_group": "within_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.14638135704580618,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.07319067852290309
+    },
+    {
+      "effect": "gain_strong_refine",
+      "margin_group": "above_rank1_threshold",
+      "datasets": {
+        "gharchive": 0.00718671640879022,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.00359335820439511
+    },
+    {
+      "effect": "gain_strong_refine",
+      "margin_group": "nonpositive",
+      "datasets": {
+        "gharchive": 0.19607361781419003,
+        "tlc_yellow": 0.0
+      },
+      "equal_weight_macro": 0.09803680890709501
+    }
+  ]
+}

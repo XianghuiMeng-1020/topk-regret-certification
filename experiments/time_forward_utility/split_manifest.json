@@ -1,0 +1,36 @@
+{
+  "primary": {
+    "tlc_yellow": {
+      "truths": 45,
+      "cal_cells": 14580,
+      "eval_cells": 9720
+    },
+    "gharchive": {
+      "truths": 36,
+      "cal_cells": 11340,
+      "eval_cells": 8100
+    }
+  },
+  "sensitivity_counts": {
+    "50_50": {
+      "tlc_yellow": [
+        11880,
+        12420
+      ],
+      "gharchive": [
+        9720,
+        9720
+      ]
+    },
+    "70_30": {
+      "tlc_yellow": [
+        16740,
+        7560
+      ],
+      "gharchive": [
+        13500,
+        5940
+      ]
+    }
+  }
+}

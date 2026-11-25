@@ -1,0 +1,73 @@
+{
+  "union_c50": {
+    "n_only_strong_sum": 5656,
+    "n_only_coupled_sum": 5656,
+    "jaccard_macro": {
+      "by_dataset": {
+        "gharchive": 0.7133056966653931,
+        "tlc_yellow": 0.5701808770087123
+      },
+      "equal_weight_macro": 0.6417432868370527
+    },
+    "mean_r_only_strong": {
+      "n_strata": 72,
+      "by_dataset": {
+        "gharchive": 4.989590019236197e-05,
+        "tlc_yellow": 9.070622126145854e-07
+      },
+      "equal_weight_macro": 2.540148120248828e-05
+    },
+    "mean_r_only_coupled": {
+      "n_strata": 72,
+      "by_dataset": {
+        "gharchive": 1.5918847575320098e-05,
+        "tlc_yellow": 1.8333673115491406e-08
+      },
+      "equal_weight_macro": 7.968590624217794e-06
+    }
+  },
+  "all_pairs_jaccard": {
+    "A_union": {
+      "by_dataset": {
+        "gharchive": 0.7133056966653931,
+        "tlc_yellow": 0.5701808770087123
+      },
+      "equal_weight_macro": 0.6417432868370527
+    },
+    "B_direct": {
+      "by_dataset": {
+        "gharchive": 0.7111454213846186,
+        "tlc_yellow": 0.5683561182490181
+      },
+      "equal_weight_macro": 0.6397507698168183
+    },
+    "C_os_rank1": {
+      "by_dataset": {
+        "gharchive": 0.7154918541285809,
+        "tlc_yellow": 0.5716984583672496
+      },
+      "equal_weight_macro": 0.6435951562479152
+    },
+    "D_os_envelope": {
+      "by_dataset": {
+        "gharchive": 0.724392548974298,
+        "tlc_yellow": 0.5716984583672496
+      },
+      "equal_weight_macro": 0.6480455036707737
+    },
+    "E_coupled_refinement": {
+      "by_dataset": {
+        "gharchive": 0.9650205894200474,
+        "tlc_yellow": 1.0
+      },
+      "equal_weight_macro": 0.9825102947100237
+    },
+    "F_strong_refinement": {
+      "by_dataset": {
+        "gharchive": 0.998193846019933,
+        "tlc_yellow": 1.0
+      },
+      "equal_weight_macro": 0.9990969230099664
+    }
+  }
+}

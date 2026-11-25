@@ -1,0 +1,68 @@
+{
+  "description": "Construction rules of the real-data truth panel, as implemented in build_truths.py and checked independently by check_integrity.py.",
+  "rules": [
+    {
+      "field": "tlc_source_url",
+      "rule": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_{YYYY-MM}.parquet"
+    },
+    {
+      "field": "tlc_train_months",
+      "rule": [
+        "2024-01",
+        "2024-02"
+      ]
+    },
+    {
+      "field": "tlc_eval_window",
+      "rule": "2024-04-01 through 2024-05-15 inclusive, one truth per calendar day with positive in-universe mass"
+    },
+    {
+      "field": "tlc_columns_and_nulls",
+      "rule": "Read tpep_pickup_datetime and PULocationID only. Coerce timestamps. Drop rows with a null timestamp or zone. Cast zone to int. Keep rows whose date falls in the file month."
+    },
+    {
+      "field": "tlc_universe",
+      "rule": "Sorted unique integer PULocationID values from the filtered training months (261 zones)."
+    },
+    {
+      "field": "tlc_count_vector",
+      "rule": "float64 vector of universe length holding the day's pickup counts per zone; zones absent that day are zero."
+    },
+    {
+      "field": "tlc_truth_id",
+      "rule": "tlc_yellow::pu_zones::{YYYY-MM-DD}"
+    },
+    {
+      "field": "gh_hour",
+      "rule": "https://data.gharchive.org/{YYYY-MM-DD}-15.json.gz"
+    },
+    {
+      "field": "gh_train_days",
+      "rule": "2024-01-02 through 2024-01-15 inclusive, 14 dates"
+    },
+    {
+      "field": "gh_eval_days",
+      "rule": "2024-02-01 through 2024-03-07 inclusive, 36 dates"
+    },
+    {
+      "field": "gh_event_count",
+      "rule": "Each non-empty JSON line with a truthy repo.name increments that repository by 1. Blank lines and JSON errors are skipped. No event-type filter."
+    },
+    {
+      "field": "gh_universe",
+      "rule": "Counter.most_common(2000) over the summed training-hour counts in train-day order; ties keep first-seen order. All 14 training objects are required."
+    },
+    {
+      "field": "gh_truth_id",
+      "rule": "gharchive::repos::{YYYY-MM-DD}"
+    },
+    {
+      "field": "serialization",
+      "rule": "Uncompressed float64 .npy; both the file and the raw array bytes are hashed in the manifests."
+    },
+    {
+      "field": "release_seed",
+      "rule": "SHA-256 of utf-8 MASTER|truth_id|mech|eps|k|wf|rep with MASTER=20260807; first 16 hex digits as int, modulo 2**31-1."
+    }
+  ]
+}

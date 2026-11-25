@@ -1,0 +1,146 @@
+{
+  "experiment": "synthetic_order_statistic",
+  "n_rows": 2700,
+  "strict_tightening_fraction": 0.6155555555555555,
+  "no_improvement_fraction": 0.3844444444444444,
+  "zero_rank1_fraction": 0.24703703703703703,
+  "zero_envelope_fraction": 0.24703703703703703,
+  "max_raw_gap": 792.0,
+  "median_raw_gap": 6.45650918116457,
+  "min_raw_gap": 0.0,
+  "fallback_s1_count": 1034,
+  "nonmonotone_count": 0,
+  "max_sf_minus_eta": 6.266688556966216e-16,
+  "max_eta_sum_minus_alpha": 1.3877787807814457e-17,
+  "by_k": {
+    "5": {
+      "n": 900,
+      "strict_fraction": 0.6,
+      "median_raw_gap": 5.699999999999996,
+      "fallback_fraction": 0.4
+    },
+    "10": {
+      "n": 900,
+      "strict_fraction": 0.6,
+      "median_raw_gap": 6.839508554865954,
+      "fallback_fraction": 0.3977777777777778
+    },
+    "25": {
+      "n": 900,
+      "strict_fraction": 0.6466666666666666,
+      "median_raw_gap": 10.376184803147426,
+      "fallback_fraction": 0.3511111111111111
+    }
+  },
+  "taus": {
+    "0.05": {
+      "K_os_rank1": 0.43407407407407406,
+      "K_os_envelope": 0.4625925925925926,
+      "K_union_box": 0.44555555555555554,
+      "K_direct_box": 0.4603703703703704,
+      "genuine_crossings_rank1_to_envelope": 77
+    },
+    "0.1": {
+      "K_os_rank1": 0.4777777777777778,
+      "K_os_envelope": 0.5225925925925926,
+      "K_union_box": 0.49037037037037035,
+      "K_direct_box": 0.5018518518518519,
+      "genuine_crossings_rank1_to_envelope": 121
+    },
+    "0.25": {
+      "K_os_rank1": 0.5944444444444444,
+      "K_os_envelope": 0.662962962962963,
+      "K_union_box": 0.6244444444444445,
+      "K_direct_box": 0.6333333333333333,
+      "genuine_crossings_rank1_to_envelope": 185
+    },
+    "0.5": {
+      "K_os_rank1": 0.7233333333333334,
+      "K_os_envelope": 0.7577777777777778,
+      "K_union_box": 0.7325925925925926,
+      "K_direct_box": 0.7344444444444445,
+      "genuine_crossings_rank1_to_envelope": 93
+    }
+  },
+  "runtime": {
+    "threshold_s": {
+      "median": 0.01088120846543461,
+      "p90": 0.053040554746985435,
+      "p95": 0.06026562740444202
+    },
+    "rank1_s": {
+      "median": 0.00040508346864953637,
+      "p90": 0.0009696163935586807,
+      "p95": 0.001637194055365397
+    },
+    "envelope_s": {
+      "median": 0.002487166551873088,
+      "p90": 0.017072079237550497,
+      "p95": 0.022535759781021604
+    },
+    "union_s": {
+      "median": 0.0003300214884802699,
+      "p90": 0.00089147943072021,
+      "p95": 0.0013621708261780424
+    },
+    "direct_s": {
+      "median": 0.00032229151111096144,
+      "p90": 0.0008891034987755119,
+      "p95": 0.0014430860115680706
+    }
+  },
+  "runtime_by_nk": {
+    "n261_k5": {
+      "median_envelope_s": 0.0008514585206285119,
+      "p90_envelope_s": 0.001436746050603688,
+      "median_solves": 5.0
+    },
+    "n261_k10": {
+      "median_envelope_s": 0.0021300414809957147,
+      "p90_envelope_s": 0.0031586917815729977,
+      "median_solves": 9.0
+    },
+    "n261_k25": {
+      "median_envelope_s": 0.009509541967418045,
+      "p90_envelope_s": 0.014981016889214516,
+      "median_solves": 17.5
+    },
+    "n500_k5": {
+      "median_envelope_s": 0.0010393544798716903,
+      "p90_envelope_s": 0.0017230295110493901,
+      "median_solves": 5.0
+    },
+    "n500_k10": {
+      "median_envelope_s": 0.0025723124854266644,
+      "p90_envelope_s": 0.004193433304317296,
+      "median_solves": 8.5
+    },
+    "n500_k25": {
+      "median_envelope_s": 0.012051229074131697,
+      "p90_envelope_s": 0.022619850328192116,
+      "median_solves": 18.0
+    },
+    "n2000_k5": {
+      "median_envelope_s": 0.0018307709833607078,
+      "p90_envelope_s": 0.0027636622195132076,
+      "median_solves": 5.0
+    },
+    "n2000_k10": {
+      "median_envelope_s": 0.005453354038763791,
+      "p90_envelope_s": 0.008028075355105102,
+      "median_solves": 9.0
+    },
+    "n2000_k25": {
+      "median_envelope_s": 0.034280604450032115,
+      "p90_envelope_s": 0.07127359233563765,
+      "median_solves": 17.5
+    }
+  },
+  "peak_traced_bytes": 847376,
+  "ordering_violations": 0,
+  "genuine_tightening_rows": 1662,
+  "elapsed_s": 77.14303370798007,
+  "python": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "2.1.3",
+  "platform": "macOS-27.2.1-arm64-arm-64bit"
+}

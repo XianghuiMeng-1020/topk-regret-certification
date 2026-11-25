@@ -1,0 +1,45 @@
+{
+  "n_strata": 108,
+  "n_boundary_tied_union_box_c50": 38,
+  "mean_tie_block": 120.73148148148148,
+  "mean_taken_from_tie": 76.5,
+  "expected_D_macro": {
+    "by_dataset": {
+      "gharchive": 5.686063185966589e-06,
+      "tlc_yellow": 2.702117208159336e-07
+    },
+    "equal_weight_macro": 2.9781374533912616e-06
+  },
+  "independent_resolution_low_macro": {
+    "by_dataset": {
+      "gharchive": 5.686063185966589e-06,
+      "tlc_yellow": 2.702117208159336e-07
+    },
+    "equal_weight_macro": 2.9781374533912616e-06
+  },
+  "independent_resolution_high_macro": {
+    "by_dataset": {
+      "gharchive": 5.686063185966589e-06,
+      "tlc_yellow": 2.702117208159336e-07
+    },
+    "equal_weight_macro": 2.9781374533912616e-06
+  },
+  "sensitivity": {
+    "n_seeds": 50,
+    "A_union_min": 2.9781374533912616e-06,
+    "A_union_max": 2.9781374533912616e-06,
+    "A_union_n_negative": 0,
+    "A_union_n_positive": 50,
+    "A_union_n_zero": 0,
+    "B_direct_min": 2.953153437309954e-06,
+    "B_direct_max": 2.9531534373099543e-06,
+    "D_os_envelope_min": 2.8269797911538265e-06,
+    "D_os_envelope_max": 2.8269797911538265e-06,
+    "D_os_envelope_n_negative": 0,
+    "D_os_envelope_n_positive": 50,
+    "A_union_strata_changed_mean": 37.48,
+    "A_union_strata_changed_max": 38,
+    "A_union_symmetric_difference_cells_mean": 5692.12,
+    "A_union_symmetric_difference_cells_max": 5776
+  }
+}

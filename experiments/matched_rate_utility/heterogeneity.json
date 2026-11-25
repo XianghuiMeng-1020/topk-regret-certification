@@ -1,0 +1,890 @@
+{
+  "A_union": {
+    "k": [
+      {
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 1.0158423389274844e-05,
+          "tlc_yellow": 5.554493730836933e-07
+        },
+        "equal_weight_macro": 5.356936381179269e-06
+      },
+      {
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 6.899766168624924e-06,
+          "tlc_yellow": 2.551857893641074e-07
+        },
+        "equal_weight_macro": 3.5774759789945157e-06
+      }
+    ],
+    "weight": [
+      {
+        "weight_family": "dcg",
+        "by_dataset": {
+          "gharchive": 5.059094999408565e-06,
+          "tlc_yellow": 3.337266972178018e-07
+        },
+        "equal_weight_macro": 2.6964108483131833e-06
+      },
+      {
+        "weight_family": "reciprocal",
+        "by_dataset": {
+          "gharchive": 1.9467815608764984e-06,
+          "tlc_yellow": 2.7848449426481526e-07
+        },
+        "equal_weight_macro": 1.112633027570657e-06
+      },
+      {
+        "weight_family": "uniform",
+        "by_dataset": {
+          "gharchive": 1.0052312997614705e-05,
+          "tlc_yellow": 1.9842397096518362e-07
+        },
+        "equal_weight_macro": 5.125368484289944e-06
+      }
+    ],
+    "epsilon": [
+      {
+        "epsilon": "0.5",
+        "by_dataset": {
+          "gharchive": 1.2004590778603664e-05,
+          "tlc_yellow": 5.673978276611668e-07
+        },
+        "equal_weight_macro": 6.285994303132416e-06
+      },
+      {
+        "epsilon": "1.0",
+        "by_dataset": {
+          "gharchive": 3.875847389979409e-06,
+          "tlc_yellow": 2.2653719008334078e-07
+        },
+        "equal_weight_macro": 2.051192290031375e-06
+      },
+      {
+        "epsilon": "2.0",
+        "by_dataset": {
+          "gharchive": 1.1777513893166962e-06,
+          "tlc_yellow": 1.670014470329315e-08
+        },
+        "equal_weight_macro": 5.972257670099947e-07
+      }
+    ],
+    "mechanism": [
+      {
+        "mechanism": "M1",
+        "by_dataset": {
+          "gharchive": 6.296603326672093e-06,
+          "tlc_yellow": 2.675814755004707e-07
+        },
+        "equal_weight_macro": 3.282092401086282e-06
+      },
+      {
+        "mechanism": "M2",
+        "by_dataset": {
+          "gharchive": 5.0755230452610865e-06,
+          "tlc_yellow": 2.7284196613139645e-07
+        },
+        "equal_weight_macro": 2.6741825056962413e-06
+      }
+    ],
+    "dataset_k": [
+      {
+        "dataset_id": "gharchive",
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 1.0158423389274844e-05
+        },
+        "equal_weight_macro": 1.0158423389274844e-05
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 6.899766168624924e-06
+        },
+        "equal_weight_macro": 6.899766168624924e-06
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 5,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 10,
+        "by_dataset": {
+          "tlc_yellow": 5.554493730836933e-07
+        },
+        "equal_weight_macro": 5.554493730836933e-07
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 25,
+        "by_dataset": {
+          "tlc_yellow": 2.551857893641074e-07
+        },
+        "equal_weight_macro": 2.551857893641074e-07
+      }
+    ]
+  },
+  "B_direct": {
+    "k": [
+      {
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 1.0139153600591695e-05,
+          "tlc_yellow": 5.550583474357782e-07
+        },
+        "equal_weight_macro": 5.347105974013737e-06
+      },
+      {
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 6.768892278045033e-06,
+          "tlc_yellow": 2.558163977872193e-07
+        },
+        "equal_weight_macro": 3.512354337916126e-06
+      }
+    ],
+    "weight": [
+      {
+        "weight_family": "dcg",
+        "by_dataset": {
+          "gharchive": 5.008483451687488e-06,
+          "tlc_yellow": 3.334237790001914e-07
+        },
+        "equal_weight_macro": 2.67095361534384e-06
+      },
+      {
+        "weight_family": "reciprocal",
+        "by_dataset": {
+          "gharchive": 1.966371882621273e-06,
+          "tlc_yellow": 2.7902699525762246e-07
+        },
+        "equal_weight_macro": 1.1226994389394478e-06
+      },
+      {
+        "weight_family": "uniform",
+        "by_dataset": {
+          "gharchive": 9.933190544327969e-06,
+          "tlc_yellow": 1.9842397096518362e-07
+        },
+        "equal_weight_macro": 5.065807257646576e-06
+      }
+    ],
+    "epsilon": [
+      {
+        "epsilon": "0.5",
+        "by_dataset": {
+          "gharchive": 1.1734149138583048e-05,
+          "tlc_yellow": 5.670068020132517e-07
+        },
+        "equal_weight_macro": 6.15057797029815e-06
+      },
+      {
+        "epsilon": "1.0",
+        "by_dataset": {
+          "gharchive": 3.972822166420534e-06,
+          "tlc_yellow": 2.2698916688381248e-07
+        },
+        "equal_weight_macro": 2.099905666652173e-06
+      },
+      {
+        "epsilon": "2.0",
+        "by_dataset": {
+          "gharchive": 1.2010745736331468e-06,
+          "tlc_yellow": 1.6878776325933378e-08
+        },
+        "equal_weight_macro": 6.0897667497954e-07
+      }
+    ],
+    "mechanism": [
+      {
+        "mechanism": "M1",
+        "by_dataset": {
+          "gharchive": 6.2856304039361525e-06,
+          "tlc_yellow": 2.675814755004707e-07
+        },
+        "equal_weight_macro": 3.2766059397183116e-06
+      },
+      {
+        "mechanism": "M2",
+        "by_dataset": {
+          "gharchive": 4.986400181821668e-06,
+          "tlc_yellow": 2.7300168798152765e-07
+        },
+        "equal_weight_macro": 2.6297009349015977e-06
+      }
+    ],
+    "dataset_k": [
+      {
+        "dataset_id": "gharchive",
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 1.0139153600591695e-05
+        },
+        "equal_weight_macro": 1.0139153600591695e-05
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 6.768892278045033e-06
+        },
+        "equal_weight_macro": 6.768892278045033e-06
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 5,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 10,
+        "by_dataset": {
+          "tlc_yellow": 5.550583474357782e-07
+        },
+        "equal_weight_macro": 5.550583474357782e-07
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 25,
+        "by_dataset": {
+          "tlc_yellow": 2.558163977872193e-07
+        },
+        "equal_weight_macro": 2.558163977872193e-07
+      }
+    ]
+  },
+  "C_os_rank1": {
+    "k": [
+      {
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 9.0479115813458e-06,
+          "tlc_yellow": 5.542171365978332e-07
+        },
+        "equal_weight_macro": 4.801064358971816e-06
+      },
+      {
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 5.952769008150691e-06,
+          "tlc_yellow": 2.5430303402405625e-07
+        },
+        "equal_weight_macro": 3.1035360210873737e-06
+      }
+    ],
+    "weight": [
+      {
+        "weight_family": "dcg",
+        "by_dataset": {
+          "gharchive": 4.4619866192688005e-06,
+          "tlc_yellow": 3.3301748215763333e-07
+        },
+        "equal_weight_macro": 2.397502050713217e-06
+      },
+      {
+        "weight_family": "reciprocal",
+        "by_dataset": {
+          "gharchive": 1.7562799851556772e-06,
+          "tlc_yellow": 2.770787174990725e-07
+        },
+        "equal_weight_macro": 1.016679351327375e-06
+      },
+      {
+        "weight_family": "uniform",
+        "by_dataset": {
+          "gharchive": 8.782413985072014e-06,
+          "tlc_yellow": 1.9842397096518362e-07
+        },
+        "equal_weight_macro": 4.4904189780185986e-06
+      }
+    ],
+    "epsilon": [
+      {
+        "epsilon": "0.5",
+        "by_dataset": {
+          "gharchive": 1.0332193617624919e-05,
+          "tlc_yellow": 5.661475771480674e-07
+        },
+        "equal_weight_macro": 5.449170597386493e-06
+      },
+      {
+        "epsilon": "1.0",
+        "by_dataset": {
+          "gharchive": 3.546606109392202e-06,
+          "tlc_yellow": 2.2578319090448042e-07
+        },
+        "equal_weight_macro": 1.8861946501483412e-06
+      },
+      {
+        "epsilon": "2.0",
+        "by_dataset": {
+          "gharchive": 1.1218808624793716e-06,
+          "tlc_yellow": 1.658940256934177e-08
+        },
+        "equal_weight_macro": 5.692351325243566e-07
+      }
+    ],
+    "mechanism": [
+      {
+        "mechanism": "M1",
+        "by_dataset": {
+          "gharchive": 5.922788793056885e-06,
+          "tlc_yellow": 2.663974326391659e-07
+        },
+        "equal_weight_macro": 3.0945931128480252e-06
+      },
+      {
+        "mechanism": "M2",
+        "by_dataset": {
+          "gharchive": 4.07766493327411e-06,
+          "tlc_yellow": 2.7261601444209377e-07
+        },
+        "equal_weight_macro": 2.175140473858102e-06
+      }
+    ],
+    "dataset_k": [
+      {
+        "dataset_id": "gharchive",
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 9.0479115813458e-06
+        },
+        "equal_weight_macro": 9.0479115813458e-06
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 5.952769008150691e-06
+        },
+        "equal_weight_macro": 5.952769008150691e-06
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 5,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 10,
+        "by_dataset": {
+          "tlc_yellow": 5.542171365978332e-07
+        },
+        "equal_weight_macro": 5.542171365978332e-07
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 25,
+        "by_dataset": {
+          "tlc_yellow": 2.5430303402405625e-07
+        },
+        "equal_weight_macro": 2.5430303402405625e-07
+      }
+    ]
+  },
+  "D_os_envelope": {
+    "k": [
+      {
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 9.726047618691137e-06,
+          "tlc_yellow": 5.542171365978332e-07
+        },
+        "equal_weight_macro": 5.140132377644485e-06
+      },
+      {
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 6.427310957609932e-06,
+          "tlc_yellow": 2.5430303402405625e-07
+        },
+        "equal_weight_macro": 3.340806995816994e-06
+      }
+    ],
+    "weight": [
+      {
+        "weight_family": "dcg",
+        "by_dataset": {
+          "gharchive": 4.161742743580188e-06,
+          "tlc_yellow": 3.3301748215763333e-07
+        },
+        "equal_weight_macro": 2.2473801128689107e-06
+      },
+      {
+        "weight_family": "reciprocal",
+        "by_dataset": {
+          "gharchive": 1.7562799851556768e-06,
+          "tlc_yellow": 2.770787174990725e-07
+        },
+        "equal_weight_macro": 1.0166793513273745e-06
+      },
+      {
+        "weight_family": "uniform",
+        "by_dataset": {
+          "gharchive": 1.0235335847565205e-05,
+          "tlc_yellow": 1.9842397096518362e-07
+        },
+        "equal_weight_macro": 5.216879909265194e-06
+      }
+    ],
+    "epsilon": [
+      {
+        "epsilon": "0.5",
+        "by_dataset": {
+          "gharchive": 1.1400593832445781e-05,
+          "tlc_yellow": 5.661475771480674e-07
+        },
+        "equal_weight_macro": 5.983370704796924e-06
+      },
+      {
+        "epsilon": "1.0",
+        "by_dataset": {
+          "gharchive": 3.5464301189965053e-06,
+          "tlc_yellow": 2.2578319090448042e-07
+        },
+        "equal_weight_macro": 1.8861066549504928e-06
+      },
+      {
+        "epsilon": "2.0",
+        "by_dataset": {
+          "gharchive": 1.2063346248587828e-06,
+          "tlc_yellow": 1.658940256934177e-08
+        },
+        "equal_weight_macro": 6.114620137140623e-07
+      }
+    ],
+    "mechanism": [
+      {
+        "mechanism": "M1",
+        "by_dataset": {
+          "gharchive": 5.772124396734179e-06,
+          "tlc_yellow": 2.663974326391659e-07
+        },
+        "equal_weight_macro": 3.019260914686672e-06
+      },
+      {
+        "mechanism": "M2",
+        "by_dataset": {
+          "gharchive": 4.996781320799867e-06,
+          "tlc_yellow": 2.7261601444209377e-07
+        },
+        "equal_weight_macro": 2.6346986676209805e-06
+      }
+    ],
+    "dataset_k": [
+      {
+        "dataset_id": "gharchive",
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 9.726047618691137e-06
+        },
+        "equal_weight_macro": 9.726047618691137e-06
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 6.427310957609932e-06
+        },
+        "equal_weight_macro": 6.427310957609932e-06
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 5,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 10,
+        "by_dataset": {
+          "tlc_yellow": 5.542171365978332e-07
+        },
+        "equal_weight_macro": 5.542171365978332e-07
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 25,
+        "by_dataset": {
+          "tlc_yellow": 2.5430303402405625e-07
+        },
+        "equal_weight_macro": 2.5430303402405625e-07
+      }
+    ]
+  },
+  "E_coupled_refinement": {
+    "k": [
+      {
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 6.781360373453372e-07,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 3.390680186726686e-07
+      },
+      {
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 4.745419494592407e-07,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 2.3727097472962036e-07
+      }
+    ],
+    "weight": [
+      {
+        "weight_family": "dcg",
+        "by_dataset": {
+          "gharchive": -3.00243875688613e-07,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": -1.501219378443065e-07
+      },
+      {
+        "weight_family": "reciprocal",
+        "by_dataset": {
+          "gharchive": -3.764590876685779e-22,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": -1.8822954383428895e-22
+      },
+      {
+        "weight_family": "uniform",
+        "by_dataset": {
+          "gharchive": 1.4529218624931913e-06,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 7.264609312465956e-07
+      }
+    ],
+    "epsilon": [
+      {
+        "epsilon": "0.5",
+        "by_dataset": {
+          "gharchive": 1.0684002148208636e-06,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 5.342001074104318e-07
+      },
+      {
+        "epsilon": "1.0",
+        "by_dataset": {
+          "gharchive": -1.759903956967574e-10,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": -8.79951978483787e-11
+      },
+      {
+        "epsilon": "2.0",
+        "by_dataset": {
+          "gharchive": 8.445376237941117e-08,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 4.2226881189705585e-08
+      }
+    ],
+    "mechanism": [
+      {
+        "mechanism": "M1",
+        "by_dataset": {
+          "gharchive": -1.50664396322706e-07,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": -7.5332198161353e-08
+      },
+      {
+        "mechanism": "M2",
+        "by_dataset": {
+          "gharchive": 9.191163875257581e-07,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 4.5955819376287904e-07
+      }
+    ],
+    "dataset_k": [
+      {
+        "dataset_id": "gharchive",
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 6.781360373453372e-07
+        },
+        "equal_weight_macro": 6.781360373453372e-07
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 4.745419494592407e-07
+        },
+        "equal_weight_macro": 4.745419494592407e-07
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 5,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 10,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 25,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      }
+    ]
+  },
+  "F_strong_refinement": {
+    "k": [
+      {
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      }
+    ],
+    "weight": [
+      {
+        "weight_family": "dcg",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "weight_family": "reciprocal",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "weight_family": "uniform",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      }
+    ],
+    "epsilon": [
+      {
+        "epsilon": "0.5",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "epsilon": "1.0",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "epsilon": "2.0",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      }
+    ],
+    "mechanism": [
+      {
+        "mechanism": "M1",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "mechanism": "M2",
+        "by_dataset": {
+          "gharchive": 0.0,
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      }
+    ],
+    "dataset_k": [
+      {
+        "dataset_id": "gharchive",
+        "k": 5,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 10,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "gharchive",
+        "k": 25,
+        "by_dataset": {
+          "gharchive": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 5,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 10,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      },
+      {
+        "dataset_id": "tlc_yellow",
+        "k": 25,
+        "by_dataset": {
+          "tlc_yellow": 0.0
+        },
+        "equal_weight_macro": 0.0
+      }
+    ]
+  }
+}

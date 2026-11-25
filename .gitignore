@@ -1,0 +1,19 @@
+# Public source objects (about 5.9 GB). Fetch with `make data`; never commit them.
+/data/source_objects/**
+!/data/source_objects/
+!/data/source_objects/README.md
+
+# Machine-local status written by scripts/bootstrap_data.py
+/manifests/SOURCE_OBJECTS_STATUS.json
+
+# Per-truth intermediate files of the real-data runners
+/experiments/*/chunks/
+
+# Local environments and fresh reproduction outputs
+/.venv/
+/.venv-synthetic/
+/reproductions/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

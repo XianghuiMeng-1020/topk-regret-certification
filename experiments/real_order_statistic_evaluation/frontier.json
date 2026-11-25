@@ -1,0 +1,42 @@
+{
+  "rank1_coupled": {
+    "T_0.50": 8.452251855912803e-05,
+    "K_at_T": 0.5018415637860082,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  },
+  "rank1_strong": {
+    "T_0.50": 0.005379994801694892,
+    "K_at_T": 0.5008487654320988,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  },
+  "coupled_envelope": {
+    "T_0.50": 8.452251855912803e-05,
+    "K_at_T": 0.5018415637860082,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  },
+  "strong_envelope": {
+    "T_0.50": 0.0033250068821424413,
+    "K_at_T": 0.5019753086419754,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  },
+  "union_box": {
+    "T_0.50": 4.7845897027559065e-05,
+    "K_at_T": 0.500190329218107,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  },
+  "union_strong": {
+    "T_0.50": 0.004411508636033862,
+    "K_at_T": 0.5005349794238683,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  },
+  "direct_box": {
+    "T_0.50": 4.041127318857877e-05,
+    "K_at_T": 0.5005195473251028,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  },
+  "direct_strong": {
+    "T_0.50": 0.00416655816254785,
+    "K_at_T": 0.5004989711934157,
+    "approximation": "401 empirical quantiles of cell-level C/S"
+  }
+}

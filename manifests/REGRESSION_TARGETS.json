@@ -1,0 +1,254 @@
+{
+  "schema": "regression-targets-v1",
+  "note": "Registered values from the real-data ledgers. scripts/check_claims.py recomputes each value from ledger rows and only then compares. 'summary' names the JSON field written by the experiment runner; 'recompute' names the independent computation in check_claims.py.",
+  "numeric_tolerance_abs": 1e-12,
+  "targets": [
+    {
+      "id": "BOX_TLC_GAIN",
+      "experiment": "real_box_evaluation",
+      "expected": "0.0",
+      "summary": [
+        "experiments/real_box_evaluation/source_results.json",
+        [
+          "0.1",
+          "tlc",
+          "delta_union"
+        ]
+      ],
+      "recompute": "box.delta_union.tlc",
+      "meaning": "TLC union-box minus strong certification rate, tau=0.10, truth-macro"
+    },
+    {
+      "id": "BOX_GITHUB_GAIN",
+      "experiment": "real_box_evaluation",
+      "expected": "0.06404320987654322",
+      "summary": [
+        "experiments/real_box_evaluation/source_results.json",
+        [
+          "0.1",
+          "github",
+          "delta_union"
+        ]
+      ],
+      "recompute": "box.delta_union.github",
+      "meaning": "GitHub union-box minus strong certification rate, tau=0.10"
+    },
+    {
+      "id": "BOX_MACRO_GAIN",
+      "experiment": "real_box_evaluation",
+      "expected": "0.03202160493827161",
+      "summary": [
+        "experiments/real_box_evaluation/macro_results.json",
+        [
+          "0.1",
+          "delta_union"
+        ]
+      ],
+      "recompute": "box.delta_union.macro",
+      "meaning": "Equal-weight source macro of the two gains"
+    },
+    {
+      "id": "OS_RANK1_COUPLING",
+      "experiment": "real_order_statistic_evaluation",
+      "expected": "0.05378086419753081",
+      "summary": [
+        "experiments/real_order_statistic_evaluation/macro_results.json",
+        [
+          "0.10",
+          "rank1_coupling"
+        ]
+      ],
+      "recompute": "os.rank1_coupling.macro",
+      "meaning": "Rank-1 OS box coupled minus strong, tau=0.10, macro"
+    },
+    {
+      "id": "OS_AWARE_COUPLING",
+      "experiment": "real_order_statistic_evaluation",
+      "expected": "0.004115226337448652",
+      "summary": [
+        "experiments/real_order_statistic_evaluation/macro_results.json",
+        [
+          "0.10",
+          "os_coupling"
+        ]
+      ],
+      "recompute": "os.os_coupling.macro",
+      "meaning": "OS-aware envelope coupled minus strong, tau=0.10, macro"
+    },
+    {
+      "id": "OS_COUPLED_REFINEMENT",
+      "experiment": "real_order_statistic_evaluation",
+      "expected": "0.0004115226337448874",
+      "summary": [
+        "experiments/real_order_statistic_evaluation/macro_results.json",
+        [
+          "0.10",
+          "coupled_refinement"
+        ]
+      ],
+      "recompute": "os.coupled_refine.macro",
+      "meaning": "Coupled OS envelope minus coupled rank-1 box, tau=0.10, macro"
+    },
+    {
+      "id": "OS_NEW_CERTIFIED_CELLS",
+      "experiment": "real_order_statistic_evaluation",
+      "expected": "16",
+      "summary": null,
+      "recompute": "os.n_new_coupled",
+      "meaning": "Cells certified by the coupled OS envelope and not by the coupled rank-1 box, tau=0.10"
+    },
+    {
+      "id": "OS_AWARE_CI_LO",
+      "experiment": "real_order_statistic_evaluation",
+      "expected": "0.0",
+      "summary": [
+        "experiments/real_order_statistic_evaluation/bootstrap.json",
+        [
+          "truth_cluster",
+          "os_coupling",
+          "lo"
+        ]
+      ],
+      "recompute": null,
+      "meaning": "Truth-cluster bootstrap lower end for the OS-aware coupling difference (CI includes 0)"
+    },
+    {
+      "id": "MATCHED_RATE_REGRET_DIFF",
+      "experiment": "matched_rate_utility",
+      "expected": "2.9781374533912616e-06",
+      "summary": [
+        "experiments/matched_rate_utility/matched_rate_summary.json",
+        [
+          "A_union",
+          "D",
+          "0.50",
+          "equal_weight_macro"
+        ]
+      ],
+      "recompute": "matched_rate.macro_D",
+      "meaning": "Matched-rate (c=0.50) strong minus coupled mean normalized regret, macro"
+    },
+    {
+      "id": "TIME_FORWARD_STRONG_ACCEPT",
+      "experiment": "time_forward_utility",
+      "expected": "0.6185802469135802",
+      "summary": [
+        "experiments/time_forward_utility/primary_summary.json",
+        [
+          "A_union",
+          "frac_l",
+          "equal_weight_macro"
+        ]
+      ],
+      "recompute": "time_forward.frac_l",
+      "meaning": "Time-forward strong acceptance rate, macro"
+    },
+    {
+      "id": "TIME_FORWARD_COUPLED_ACCEPT",
+      "experiment": "time_forward_utility",
+      "expected": "0.5977572016460905",
+      "summary": [
+        "experiments/time_forward_utility/primary_summary.json",
+        [
+          "A_union",
+          "frac_r",
+          "equal_weight_macro"
+        ]
+      ],
+      "recompute": "time_forward.frac_r",
+      "meaning": "Time-forward coupled acceptance rate, macro"
+    },
+    {
+      "id": "TIME_FORWARD_STRONG_ACCEPTED_MEAN",
+      "experiment": "time_forward_utility",
+      "expected": "9.32535120511409e-06",
+      "summary": [
+        "experiments/time_forward_utility/primary_summary.json",
+        [
+          "A_union",
+          "mean_l",
+          "equal_weight_macro"
+        ]
+      ],
+      "recompute": "time_forward.mean_l",
+      "meaning": "Mean normalized regret of strong-accepted cells, macro"
+    },
+    {
+      "id": "TIME_FORWARD_COUPLED_ACCEPTED_MEAN",
+      "experiment": "time_forward_utility",
+      "expected": "6.050943798728264e-06",
+      "summary": [
+        "experiments/time_forward_utility/primary_summary.json",
+        [
+          "A_union",
+          "mean_r",
+          "equal_weight_macro"
+        ]
+      ],
+      "recompute": "time_forward.mean_r",
+      "meaning": "Mean normalized regret of coupled-accepted cells, macro"
+    },
+    {
+      "id": "TIME_FORWARD_D_REGRET",
+      "experiment": "time_forward_utility",
+      "expected": "3.2744074063858255e-06",
+      "summary": [
+        "experiments/time_forward_utility/primary_summary.json",
+        [
+          "A_union",
+          "D_regret",
+          "equal_weight_macro"
+        ]
+      ],
+      "recompute": "time_forward.D_regret",
+      "meaning": "Strong minus coupled accepted-regret mean, stratum-equal macro"
+    },
+    {
+      "id": "TIME_FORWARD_D_ACCEPT",
+      "experiment": "time_forward_utility",
+      "expected": "-0.020823045267489706",
+      "summary": [
+        "experiments/time_forward_utility/primary_summary.json",
+        [
+          "A_union",
+          "D_accept",
+          "equal_weight_macro"
+        ]
+      ],
+      "recompute": "time_forward.D_accept",
+      "meaning": "Coupled minus strong acceptance, stratum-equal macro (negative)"
+    },
+    {
+      "id": "AUDIT_INTEGER_FRONTIER_DIFFERENCES",
+      "experiment": "consistency_audit",
+      "expected": "19",
+      "summary": null,
+      "recompute": "frontier.n_differences",
+      "meaning": "Frontier entries whose integer-mass inverse differs from the matched-rate float inverse"
+    },
+    {
+      "id": "AUDIT_T50_UNCHANGED",
+      "experiment": "consistency_audit",
+      "expected": "True",
+      "summary": null,
+      "recompute": "frontier.t50_unchanged",
+      "meaning": "No frontier difference touches T(0.50)"
+    },
+    {
+      "id": "PANEL_TRUTHS",
+      "experiment": "real_data_panel",
+      "expected": "81",
+      "summary": null,
+      "recompute": "panel.truths",
+      "meaning": "45 TLC + 36 GitHub truth vectors"
+    },
+    {
+      "id": "PANEL_CELLS",
+      "experiment": "real_box_evaluation",
+      "expected": "43740",
+      "summary": null,
+      "recompute": "panel.cells",
+      "meaning": "81 truths x 540 cells"
+    }
+  ]
+}

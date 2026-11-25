@@ -1,0 +1,172 @@
+{
+  "0.05": {
+    "tlc": {
+      "box_union": 1.0,
+      "strong_union": 1.0,
+      "box_direct": 1.0,
+      "strong_direct": 1.0,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 1.0,
+      "strong_union_plus_closed": 1.0,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 1.0,
+      "strong_direct_plus_closed": 1.0,
+      "delta_union": 0.0,
+      "delta_direct": 0.0,
+      "delta_union_plus": 0.0,
+      "delta_union_closed": 0.0
+    },
+    "github": {
+      "box_union": 0.9985082304526749,
+      "strong_union": 0.7435699588477366,
+      "box_direct": 0.9988683127572016,
+      "strong_direct": 0.7612654320987653,
+      "box_union_plus": 0.9985082304526749,
+      "strong_union_plus_raw": 0.7435699588477366,
+      "strong_union_plus_closed": 0.7435699588477366,
+      "box_direct_plus": 0.9988683127572016,
+      "strong_direct_plus_raw": 0.7612654320987653,
+      "strong_direct_plus_closed": 0.7612654320987653,
+      "delta_union": 0.2549382716049383,
+      "delta_direct": 0.23760288065843627,
+      "delta_union_plus": 0.2549382716049383,
+      "delta_union_closed": 0.2549382716049383
+    }
+  },
+  "0.1": {
+    "tlc": {
+      "box_union": 1.0,
+      "strong_union": 1.0,
+      "box_direct": 1.0,
+      "strong_direct": 1.0,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 1.0,
+      "strong_union_plus_closed": 1.0,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 1.0,
+      "strong_direct_plus_closed": 1.0,
+      "delta_union": 0.0,
+      "delta_direct": 0.0,
+      "delta_union_plus": 0.0,
+      "delta_union_closed": 0.0
+    },
+    "github": {
+      "box_union": 1.0,
+      "strong_union": 0.9359567901234568,
+      "box_direct": 1.0,
+      "strong_direct": 0.9433641975308641,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 0.9359567901234568,
+      "strong_union_plus_closed": 0.9359567901234568,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 0.9433641975308641,
+      "strong_direct_plus_closed": 0.9433641975308641,
+      "delta_union": 0.06404320987654322,
+      "delta_direct": 0.05663580246913591,
+      "delta_union_plus": 0.06404320987654322,
+      "delta_union_closed": 0.06404320987654322
+    }
+  },
+  "0.25": {
+    "tlc": {
+      "box_union": 1.0,
+      "strong_union": 1.0,
+      "box_direct": 1.0,
+      "strong_direct": 1.0,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 1.0,
+      "strong_union_plus_closed": 1.0,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 1.0,
+      "strong_direct_plus_closed": 1.0,
+      "delta_union": 0.0,
+      "delta_direct": 0.0,
+      "delta_union_plus": 0.0,
+      "delta_union_closed": 0.0
+    },
+    "github": {
+      "box_union": 1.0,
+      "strong_union": 0.9989711934156378,
+      "box_direct": 1.0,
+      "strong_direct": 0.9989711934156378,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 0.9989711934156378,
+      "strong_union_plus_closed": 0.9989711934156378,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 0.9989711934156378,
+      "strong_direct_plus_closed": 0.9989711934156378,
+      "delta_union": 0.0010288065843622185,
+      "delta_direct": 0.0010288065843622185,
+      "delta_union_plus": 0.0010288065843622185,
+      "delta_union_closed": 0.0010288065843622185
+    }
+  },
+  "0.5": {
+    "tlc": {
+      "box_union": 1.0,
+      "strong_union": 1.0,
+      "box_direct": 1.0,
+      "strong_direct": 1.0,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 1.0,
+      "strong_union_plus_closed": 1.0,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 1.0,
+      "strong_direct_plus_closed": 1.0,
+      "delta_union": 0.0,
+      "delta_direct": 0.0,
+      "delta_union_plus": 0.0,
+      "delta_union_closed": 0.0
+    },
+    "github": {
+      "box_union": 1.0,
+      "strong_union": 1.0,
+      "box_direct": 1.0,
+      "strong_direct": 1.0,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 1.0,
+      "strong_union_plus_closed": 1.0,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 1.0,
+      "strong_direct_plus_closed": 1.0,
+      "delta_union": 0.0,
+      "delta_direct": 0.0,
+      "delta_union_plus": 0.0,
+      "delta_union_closed": 0.0
+    }
+  },
+  "1.0": {
+    "tlc": {
+      "box_union": 1.0,
+      "strong_union": 1.0,
+      "box_direct": 1.0,
+      "strong_direct": 1.0,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 1.0,
+      "strong_union_plus_closed": 1.0,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 1.0,
+      "strong_direct_plus_closed": 1.0,
+      "delta_union": 0.0,
+      "delta_direct": 0.0,
+      "delta_union_plus": 0.0,
+      "delta_union_closed": 0.0
+    },
+    "github": {
+      "box_union": 1.0,
+      "strong_union": 1.0,
+      "box_direct": 1.0,
+      "strong_direct": 1.0,
+      "box_union_plus": 1.0,
+      "strong_union_plus_raw": 1.0,
+      "strong_union_plus_closed": 1.0,
+      "box_direct_plus": 1.0,
+      "strong_direct_plus_raw": 1.0,
+      "strong_direct_plus_closed": 1.0,
+      "delta_union": 0.0,
+      "delta_direct": 0.0,
+      "delta_union_plus": 0.0,
+      "delta_union_closed": 0.0
+    }
+  }
+}

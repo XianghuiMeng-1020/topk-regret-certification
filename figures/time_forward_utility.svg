@@ -1,0 +1,43 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 330' width='760' height='330' role='img' aria-label='Time-forward utility'>
+<rect width='760' height='330' fill='#ffffff'/>
+<text x='24.0' y='30.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='16' fill='#1f2933' text-anchor='start' font-weight='600'>Time-forward thresholds: calibrate on earlier days, apply to later days</text>
+<text x='24.0' y='50.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#6b7785' text-anchor='start' font-weight='400'>Stratum-equal macro over 54 strata per source. Coupled − strong acceptance -2.08 pp; strong − coupled accepted regret 3.27e-06.</text>
+<text x='40.0' y='84.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='13' fill='#1f2933' text-anchor='start' font-weight='600'>Acceptance rate</text>
+<rect x='62' y='134.0' width='34' height='128.0' rx='3' fill='#9aa5b1'/>
+<text x='79.0' y='128.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#6b7785' text-anchor='middle' font-weight='400'>0.600</text>
+<rect x='102' y='130.3' width='34' height='131.7' rx='3' fill='#0b7285'/>
+<text x='119.0' y='124.3' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#0b7285' text-anchor='middle' font-weight='600'>0.618</text>
+<text x='99.0' y='280.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#6b7785' text-anchor='middle' font-weight='400'>GitHub</text>
+<rect x='170' y='126.1' width='34' height='135.9' rx='3' fill='#9aa5b1'/>
+<text x='187.0' y='120.1' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#6b7785' text-anchor='middle' font-weight='400'>0.637</text>
+<rect x='210' y='138.7' width='34' height='123.3' rx='3' fill='#0b7285'/>
+<text x='227.0' y='132.7' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#0b7285' text-anchor='middle' font-weight='600'>0.578</text>
+<text x='207.0' y='280.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#6b7785' text-anchor='middle' font-weight='400'>TLC</text>
+<rect x='278' y='130.0' width='34' height='132.0' rx='3' fill='#9aa5b1'/>
+<text x='295.0' y='124.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#6b7785' text-anchor='middle' font-weight='400'>0.619</text>
+<rect x='318' y='134.5' width='34' height='127.5' rx='3' fill='#0b7285'/>
+<text x='335.0' y='128.5' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#0b7285' text-anchor='middle' font-weight='600'>0.598</text>
+<text x='315.0' y='280.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#6b7785' text-anchor='middle' font-weight='400'>Macro</text>
+<line x1='50' x2='380' y1='262' y2='262' stroke='#6b7785'/>
+<text x='410.0' y='84.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='13' fill='#1f2933' text-anchor='start' font-weight='600'>Mean normalized regret of accepted cells</text>
+<rect x='432' y='126.8' width='34' height='135.2' rx='3' fill='#9aa5b1'/>
+<text x='449.0' y='120.8' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#6b7785' text-anchor='middle' font-weight='400'>1.9e-05</text>
+<rect x='472' y='174.0' width='34' height='88.0' rx='3' fill='#0b7285'/>
+<text x='489.0' y='168.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#0b7285' text-anchor='middle' font-weight='600'>1.2e-05</text>
+<text x='469.0' y='280.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#6b7785' text-anchor='middle' font-weight='400'>GitHub</text>
+<rect x='540' y='261.0' width='34' height='1.0' rx='3' fill='#9aa5b1'/>
+<text x='557.0' y='255.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#6b7785' text-anchor='middle' font-weight='400'>6.2e-08</text>
+<rect x='580' y='261.0' width='34' height='1.0' rx='3' fill='#0b7285'/>
+<text x='597.0' y='255.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#0b7285' text-anchor='middle' font-weight='600'>7.3e-09</text>
+<text x='577.0' y='280.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#6b7785' text-anchor='middle' font-weight='400'>TLC</text>
+<rect x='648' y='194.2' width='34' height='67.8' rx='3' fill='#9aa5b1'/>
+<text x='665.0' y='188.2' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#6b7785' text-anchor='middle' font-weight='400'>9.3e-06</text>
+<rect x='688' y='218.0' width='34' height='44.0' rx='3' fill='#0b7285'/>
+<text x='705.0' y='212.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='10' fill='#0b7285' text-anchor='middle' font-weight='600'>6.1e-06</text>
+<text x='685.0' y='280.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#6b7785' text-anchor='middle' font-weight='400'>Macro</text>
+<line x1='420' x2='750' y1='262' y2='262' stroke='#6b7785'/>
+<rect x='40' y='308' width='12' height='12' fill='#9aa5b1'/>
+<text x='58.0' y='318.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#1f2933' text-anchor='start' font-weight='400'>strong baseline</text>
+<rect x='190' y='308' width='12' height='12' fill='#0b7285'/>
+<text x='208.0' y='318.0' font-family='Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#1f2933' text-anchor='start' font-weight='400'>coupled certificate</text>
+</svg>

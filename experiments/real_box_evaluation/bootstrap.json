@@ -1,0 +1,92 @@
+{
+  "B": 1999,
+  "seed": 20261124,
+  "truth_cluster": {
+    "delta_union": {
+      "point_from_full_sample": 0.03202160493827155,
+      "lo": 0.025617283950617457,
+      "hi": 0.04059799382716058
+    },
+    "delta_direct": {
+      "point_from_full_sample": 0.02831790123456801,
+      "lo": 0.022400977366255143,
+      "hi": 0.03654835390946509
+    },
+    "calibration_box": {
+      "point_from_full_sample": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "coupling_interaction": {
+      "point_from_full_sample": 0.0037037037037035425,
+      "lo": 0.0023135288065843254,
+      "hi": 0.0051954732510286535
+    },
+    "count_effect_union": {
+      "point_from_full_sample": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "delta_union_plus_raw": {
+      "point_from_full_sample": 0.03202160493827155,
+      "lo": 0.025617283950617457,
+      "hi": 0.04059799382716058
+    },
+    "delta_union_closed": {
+      "point_from_full_sample": 0.03202160493827155,
+      "lo": 0.025617283950617457,
+      "hi": 0.04059799382716058
+    },
+    "tlc_delta_union": {
+      "point_from_full_sample": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "github_delta_union": {
+      "point_from_full_sample": 0.06404320987654322,
+      "lo": 0.051234567901234915,
+      "hi": 0.08119598765432105
+    }
+  },
+  "circular_7day_block": {
+    "seed": 20261125,
+    "intervals": {
+      "delta_union": {
+        "lo": 0.024070216049382774,
+        "hi": 0.03966692386831278
+      },
+      "delta_direct": {
+        "lo": 0.021334876543209848,
+        "hi": 0.03552083333333333
+      },
+      "calibration_box": {
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "coupling_interaction": {
+        "lo": 0.0021849279835391036,
+        "hi": 0.005222479423868319
+      },
+      "count_effect_union": {
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "delta_union_plus_raw": {
+        "lo": 0.024070216049382774,
+        "hi": 0.03966692386831278
+      },
+      "delta_union_closed": {
+        "lo": 0.024070216049382774,
+        "hi": 0.03966692386831278
+      },
+      "tlc_delta_union": {
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "github_delta_union": {
+        "lo": 0.04814043209876545,
+        "hi": 0.07933384773662545
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://data.gharchive.org/2024-01-06-15.json.gz",
+  "date": "2024-01-06",
+  "phase": "train",
+  "attempt": 1,
+  "acquisition_utc_start": "2026-11-24T07:53:03Z",
+  "acquisition_utc_end": "2026-11-24T07:53:52Z",
+  "content_length": "60196428",
+  "actual_bytes": 60196428,
+  "last_modified": "Sat, 06 Jan 2024 16:05:17 GMT",
+  "etag": "\"995adab3f347c134dee2591ef016a771\"",
+  "sha256": "d74de3bb4ecb96b6a3d844765f28faadd286632875dbfda49c3ac03c80503ba6",
+  "path": "data/source_objects/gharchive/2024-01-06-15.json.gz"
+}

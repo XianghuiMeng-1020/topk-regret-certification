@@ -1,0 +1,1522 @@
+{
+  "atol": 1e-08,
+  "tau_grid": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "python": "3.11.4",
+  "numpy": "2.1.3",
+  "principal": {
+    "n": 3060,
+    "union": {
+      "methods": {
+        "box": {
+          "n": 3060,
+          "genuine_tighter": 588,
+          "numerical_zero": 2472,
+          "genuine_worse": 0,
+          "max_increase": 1.4551915228366852e-11,
+          "min_increase": -329.0,
+          "mean_original_minus_plus": 7.5371195032338365
+        },
+        "sep": {
+          "n": 3060,
+          "genuine_tighter": 585,
+          "numerical_zero": 2475,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -329.0,
+          "mean_original_minus_plus": 7.5168682872997055
+        },
+        "rank": {
+          "n": 3060,
+          "genuine_tighter": 588,
+          "numerical_zero": 2472,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -329.0,
+          "mean_original_minus_plus": 7.592836444607611
+        },
+        "pair": {
+          "n": 3060,
+          "genuine_tighter": 588,
+          "numerical_zero": 2472,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -329.0,
+          "mean_original_minus_plus": 7.592751569522736
+        },
+        "block5": {
+          "n": 3060,
+          "genuine_tighter": 588,
+          "numerical_zero": 2472,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -329.0,
+          "mean_original_minus_plus": 7.537723697757514
+        },
+        "strong": {
+          "n": 3060,
+          "genuine_tighter": 588,
+          "numerical_zero": 2472,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -329.0,
+          "mean_original_minus_plus": 7.537723697757512
+        }
+      },
+      "taus": {
+        "0.05": {
+          "box": {
+            "K_original": 0.44869281045751636,
+            "K_plus_raw": 0.44869281045751636,
+            "K_plus_closed": 0.44869281045751636,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.39738562091503266,
+            "K_plus_raw": 0.39738562091503266,
+            "K_plus_closed": 0.39738562091503266,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0934640522875817,
+            "K_plus_raw": 0.0934640522875817,
+            "K_plus_closed": 0.0934640522875817,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.11339869281045752,
+            "K_plus_raw": 0.11339869281045752,
+            "K_plus_closed": 0.11339869281045752,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.2261437908496732,
+            "K_plus_raw": 0.2261437908496732,
+            "K_plus_closed": 0.2261437908496732,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.41568627450980394,
+            "K_plus_raw": 0.41568627450980394,
+            "K_plus_closed": 0.41568627450980394,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.1": {
+          "box": {
+            "K_original": 0.5006535947712418,
+            "K_plus_raw": 0.5006535947712418,
+            "K_plus_closed": 0.5006535947712418,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.41568627450980394,
+            "K_plus_raw": 0.41568627450980394,
+            "K_plus_closed": 0.41568627450980394,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.1954248366013072,
+            "K_plus_raw": 0.1954248366013072,
+            "K_plus_closed": 0.1954248366013072,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.1980392156862745,
+            "K_plus_raw": 0.1980392156862745,
+            "K_plus_closed": 0.1980392156862745,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.30980392156862746,
+            "K_plus_raw": 0.30980392156862746,
+            "K_plus_closed": 0.30980392156862746,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.4666666666666667,
+            "K_plus_raw": 0.4666666666666667,
+            "K_plus_closed": 0.4666666666666667,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.25": {
+          "box": {
+            "K_original": 0.638235294117647,
+            "K_plus_raw": 0.638235294117647,
+            "K_plus_closed": 0.638235294117647,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.5611111111111111,
+            "K_plus_raw": 0.5611111111111111,
+            "K_plus_closed": 0.5611111111111111,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.38823529411764707,
+            "K_plus_raw": 0.38823529411764707,
+            "K_plus_closed": 0.38823529411764707,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.3911764705882353,
+            "K_plus_raw": 0.3911764705882353,
+            "K_plus_closed": 0.3911764705882353,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.5009803921568627,
+            "K_plus_raw": 0.5009803921568627,
+            "K_plus_closed": 0.5009803921568627,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.6186274509803922,
+            "K_plus_raw": 0.6186274509803922,
+            "K_plus_closed": 0.6186274509803922,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.5": {
+          "box": {
+            "K_original": 0.7405228758169935,
+            "K_plus_raw": 0.7405228758169935,
+            "K_plus_closed": 0.7405228758169935,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.6986928104575163,
+            "K_plus_raw": 0.6986928104575163,
+            "K_plus_closed": 0.6986928104575163,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.5379084967320261,
+            "K_plus_raw": 0.5379084967320261,
+            "K_plus_closed": 0.5379084967320261,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.5656862745098039,
+            "K_plus_raw": 0.5656862745098039,
+            "K_plus_closed": 0.5656862745098039,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.681045751633987,
+            "K_plus_raw": 0.681045751633987,
+            "K_plus_closed": 0.681045751633987,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.7398692810457517,
+            "K_plus_raw": 0.7398692810457517,
+            "K_plus_closed": 0.7398692810457517,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "1.0": {
+          "box": {
+            "K_original": 0.8055555555555556,
+            "K_plus_raw": 0.8068627450980392,
+            "K_plus_closed": 0.8068627450980392,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 4,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.7862745098039216,
+            "K_plus_raw": 0.7862745098039216,
+            "K_plus_closed": 0.7862745098039216,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.6535947712418301,
+            "K_plus_raw": 0.6535947712418301,
+            "K_plus_closed": 0.6535947712418301,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.7212418300653595,
+            "K_plus_raw": 0.7212418300653595,
+            "K_plus_closed": 0.7212418300653595,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.7660130718954249,
+            "K_plus_raw": 0.7673202614379085,
+            "K_plus_closed": 0.7673202614379085,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 4,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.8052287581699347,
+            "K_plus_raw": 0.8065359477124183,
+            "K_plus_closed": 0.8065359477124183,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 4,
+            "raw_versus_closed_decision_differences": 0
+          }
+        }
+      },
+      "validity": {
+        "raw_plus_below_box_plus": {
+          "sep": 0,
+          "rank": 0,
+          "pair": 0,
+          "block5": 0,
+          "strong": 0
+        }
+      },
+      "exact_count_feasibility_gain": {
+        "mean": 7.5371195032338365,
+        "median": 0.0,
+        "min": -1.4551915228366852e-11,
+        "max": 329.0,
+        "genuine_positive": 588
+      },
+      "exact_gain_matches_stored_D_feas_cpl": true,
+      "coupling_gaps": {
+        "original": {
+          "mean": 55.547752890357856,
+          "max": 1098.0,
+          "min": -5.684341886080802e-14
+        },
+        "plus_raw": {
+          "mean": 55.5471486958343,
+          "max": 1098.0,
+          "min": -1.4210854715202004e-14
+        },
+        "plus_closed": {
+          "mean": 55.5471486958343,
+          "max": 1098.0,
+          "min": -1.4210854715202004e-14
+        }
+      },
+      "strong_raw_versus_closed_differences_over_tau_grid": 0
+    },
+    "direct": {
+      "methods": {
+        "box": {
+          "n": 3060,
+          "genuine_tighter": 579,
+          "numerical_zero": 2481,
+          "genuine_worse": 0,
+          "max_increase": 1.4551915228366852e-11,
+          "min_increase": -304.0,
+          "mean_original_minus_plus": 6.844420962341607
+        },
+        "sep": {
+          "n": 3060,
+          "genuine_tighter": 576,
+          "numerical_zero": 2484,
+          "genuine_worse": 0,
+          "max_increase": 5.684341886080802e-14,
+          "min_increase": -304.0,
+          "mean_original_minus_plus": 6.824844050762976
+        },
+        "rank": {
+          "n": 3060,
+          "genuine_tighter": 579,
+          "numerical_zero": 2481,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -304.0,
+          "mean_original_minus_plus": 6.891949970312276
+        },
+        "pair": {
+          "n": 3060,
+          "genuine_tighter": 579,
+          "numerical_zero": 2481,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -304.0,
+          "mean_original_minus_plus": 6.8918709876812345
+        },
+        "block5": {
+          "n": 3060,
+          "genuine_tighter": 579,
+          "numerical_zero": 2481,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -304.0,
+          "mean_original_minus_plus": 6.844924997341093
+        },
+        "strong": {
+          "n": 3060,
+          "genuine_tighter": 579,
+          "numerical_zero": 2481,
+          "genuine_worse": 0,
+          "max_increase": 1.1368683772161603e-13,
+          "min_increase": -304.0,
+          "mean_original_minus_plus": 6.844924997341093
+        }
+      },
+      "taus": {
+        "0.05": {
+          "box": {
+            "K_original": 0.4627450980392157,
+            "K_plus_raw": 0.4627450980392157,
+            "K_plus_closed": 0.4627450980392157,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.4,
+            "K_plus_raw": 0.4,
+            "K_plus_closed": 0.4,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.09477124183006536,
+            "K_plus_raw": 0.09477124183006536,
+            "K_plus_closed": 0.09477124183006536,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.119281045751634,
+            "K_plus_raw": 0.119281045751634,
+            "K_plus_closed": 0.119281045751634,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.23921568627450981,
+            "K_plus_raw": 0.23921568627450981,
+            "K_plus_closed": 0.23921568627450981,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.4287581699346405,
+            "K_plus_raw": 0.4287581699346405,
+            "K_plus_closed": 0.4287581699346405,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.1": {
+          "box": {
+            "K_original": 0.5137254901960784,
+            "K_plus_raw": 0.5137254901960784,
+            "K_plus_closed": 0.5137254901960784,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.4196078431372549,
+            "K_plus_raw": 0.4196078431372549,
+            "K_plus_closed": 0.4196078431372549,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.20490196078431372,
+            "K_plus_raw": 0.20490196078431372,
+            "K_plus_closed": 0.20490196078431372,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.20751633986928106,
+            "K_plus_raw": 0.20751633986928106,
+            "K_plus_closed": 0.20751633986928106,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.3130718954248366,
+            "K_plus_raw": 0.3130718954248366,
+            "K_plus_closed": 0.3130718954248366,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.4699346405228758,
+            "K_plus_raw": 0.4699346405228758,
+            "K_plus_closed": 0.4699346405228758,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.25": {
+          "box": {
+            "K_original": 0.6470588235294118,
+            "K_plus_raw": 0.6470588235294118,
+            "K_plus_closed": 0.6470588235294118,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.5872549019607843,
+            "K_plus_raw": 0.5872549019607843,
+            "K_plus_closed": 0.5872549019607843,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.3996732026143791,
+            "K_plus_raw": 0.3996732026143791,
+            "K_plus_closed": 0.3996732026143791,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.40294117647058825,
+            "K_plus_raw": 0.40294117647058825,
+            "K_plus_closed": 0.40294117647058825,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.5088235294117647,
+            "K_plus_raw": 0.5088235294117647,
+            "K_plus_closed": 0.5088235294117647,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.6264705882352941,
+            "K_plus_raw": 0.6264705882352941,
+            "K_plus_closed": 0.6264705882352941,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.5": {
+          "box": {
+            "K_original": 0.742483660130719,
+            "K_plus_raw": 0.742483660130719,
+            "K_plus_closed": 0.742483660130719,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.7107843137254902,
+            "K_plus_raw": 0.7107843137254902,
+            "K_plus_closed": 0.7107843137254902,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.5398692810457516,
+            "K_plus_raw": 0.5398692810457516,
+            "K_plus_closed": 0.5398692810457516,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.5676470588235294,
+            "K_plus_raw": 0.5676470588235294,
+            "K_plus_closed": 0.5676470588235294,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.6816993464052288,
+            "K_plus_raw": 0.6816993464052288,
+            "K_plus_closed": 0.6816993464052288,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.7405228758169935,
+            "K_plus_raw": 0.7405228758169935,
+            "K_plus_closed": 0.7405228758169935,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "1.0": {
+          "box": {
+            "K_original": 0.8081699346405229,
+            "K_plus_raw": 0.8104575163398693,
+            "K_plus_closed": 0.8104575163398693,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 7,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.7944444444444444,
+            "K_plus_raw": 0.7944444444444444,
+            "K_plus_closed": 0.7944444444444444,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.6581699346405229,
+            "K_plus_raw": 0.6581699346405229,
+            "K_plus_closed": 0.6581699346405229,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.7258169934640523,
+            "K_plus_raw": 0.7258169934640523,
+            "K_plus_closed": 0.7258169934640523,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.7689542483660131,
+            "K_plus_raw": 0.7712418300653595,
+            "K_plus_closed": 0.7712418300653595,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 7,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.8081699346405229,
+            "K_plus_raw": 0.8104575163398693,
+            "K_plus_closed": 0.8104575163398693,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 7,
+            "raw_versus_closed_decision_differences": 0
+          }
+        }
+      },
+      "validity": {
+        "raw_plus_below_box_plus": {
+          "sep": 0,
+          "rank": 0,
+          "pair": 0,
+          "block5": 0,
+          "strong": 0
+        }
+      },
+      "exact_count_feasibility_gain": {
+        "mean": 6.844420962341607,
+        "median": 0.0,
+        "min": -1.4551915228366852e-11,
+        "max": 304.0,
+        "genuine_positive": 579
+      },
+      "exact_gain_matches_stored_D_feas_cpl": true,
+      "coupling_gaps": {
+        "original": {
+          "mean": 53.31814710006361,
+          "max": 1057.111053188051,
+          "min": -2.842170943040401e-14
+        },
+        "plus_raw": {
+          "mean": 53.317643065064225,
+          "max": 1057.111053188051,
+          "min": -2.1316282072803006e-14
+        },
+        "plus_closed": {
+          "mean": 53.317643065064225,
+          "max": 1057.111053188051,
+          "min": -2.1316282072803006e-14
+        }
+      },
+      "strong_raw_versus_closed_differences_over_tau_grid": 0
+    }
+  },
+  "stress": {
+    "n": 288,
+    "union": {
+      "methods": {
+        "box": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -351.0,
+          "mean_original_minus_plus": 37.27350396446272
+        },
+        "sep": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -351.0,
+          "mean_original_minus_plus": 36.9143448557887
+        },
+        "rank": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -351.0,
+          "mean_original_minus_plus": 38.25012874951301
+        },
+        "pair": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -351.0,
+          "mean_original_minus_plus": 38.24883554829372
+        },
+        "block5": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -351.0,
+          "mean_original_minus_plus": 37.27592167975718
+        },
+        "strong": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -351.0,
+          "mean_original_minus_plus": 37.27592167975718
+        }
+      },
+      "taus": {
+        "0.05": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.1": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.25": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.5": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "1.0": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        }
+      },
+      "validity": {
+        "raw_plus_below_box_plus": {
+          "sep": 0,
+          "rank": 0,
+          "pair": 0,
+          "block5": 0,
+          "strong": 0
+        }
+      },
+      "exact_count_feasibility_gain": {
+        "mean": 37.27350396446272,
+        "median": 18.051534109366933,
+        "min": 0.0,
+        "max": 351.0,
+        "genuine_positive": 285
+      },
+      "exact_gain_matches_stored_D_feas_cpl": true,
+      "coupling_gaps": {
+        "original": {
+          "mean": 1.2596811585035252,
+          "max": 25.0,
+          "min": -2.1316282072803006e-14
+        },
+        "plus_raw": {
+          "mean": 1.2572634432090604,
+          "max": 25.0,
+          "min": -7.105427357601002e-15
+        },
+        "plus_closed": {
+          "mean": 1.2572634432090604,
+          "max": 25.0,
+          "min": -7.105427357601002e-15
+        }
+      },
+      "strong_raw_versus_closed_differences_over_tau_grid": 0
+    },
+    "direct": {
+      "methods": {
+        "box": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -326.0,
+          "mean_original_minus_plus": 34.201614931464974
+        },
+        "sep": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -326.0,
+          "mean_original_minus_plus": 33.85043877396475
+        },
+        "rank": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -326.0,
+          "mean_original_minus_plus": 35.048880165726054
+        },
+        "pair": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -326.0,
+          "mean_original_minus_plus": 35.04542011816904
+        },
+        "block5": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -326.0,
+          "mean_original_minus_plus": 34.20430250105898
+        },
+        "strong": {
+          "n": 288,
+          "genuine_tighter": 285,
+          "numerical_zero": 3,
+          "genuine_worse": 0,
+          "max_increase": 0.0,
+          "min_increase": -326.0,
+          "mean_original_minus_plus": 34.20430250105898
+        }
+      },
+      "taus": {
+        "0.05": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.1": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.25": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "0.5": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          }
+        },
+        "1.0": {
+          "box": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.010416666666666666,
+            "K_plus_closed": 0.010416666666666666,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 3,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "sep": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "rank": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "pair": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.0,
+            "K_plus_closed": 0.0,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 0,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "block5": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.010416666666666666,
+            "K_plus_closed": 0.010416666666666666,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 3,
+            "raw_versus_closed_decision_differences": 0
+          },
+          "strong": {
+            "K_original": 0.0,
+            "K_plus_raw": 0.010416666666666666,
+            "K_plus_closed": 0.010416666666666666,
+            "raw_reversals": 0,
+            "closed_reversals": 0,
+            "raw_gains": 3,
+            "raw_versus_closed_decision_differences": 0
+          }
+        }
+      },
+      "validity": {
+        "raw_plus_below_box_plus": {
+          "sep": 0,
+          "rank": 0,
+          "pair": 0,
+          "block5": 0,
+          "strong": 0
+        }
+      },
+      "exact_count_feasibility_gain": {
+        "mean": 34.201614931464974,
+        "median": 16.314541199927188,
+        "min": 0.0,
+        "max": 326.0,
+        "genuine_positive": 285
+      },
+      "exact_gain_matches_stored_D_feas_cpl": true,
+      "coupling_gaps": {
+        "original": {
+          "mean": 1.2596811585035257,
+          "max": 25.0,
+          "min": -7.105427357601002e-15
+        },
+        "plus_raw": {
+          "mean": 1.2569935889095116,
+          "max": 25.0,
+          "min": -7.105427357601002e-15
+        },
+        "plus_closed": {
+          "mean": 1.2569935889095116,
+          "max": 25.0,
+          "min": -7.105427357601002e-15
+        }
+      },
+      "strong_raw_versus_closed_differences_over_tau_grid": 0
+    }
+  },
+  "input_sha256": {
+    "principal_releases.jsonl": "537bd560e8e20661381477a4131e7f2706ec2d57777d059c499b9af6a6fdb67c",
+    "low_count_stress.jsonl": "4c411a6253ade1d7801f893b2b51c0b349483cd47546cf90c1244d39d5316fd7"
+  }
+}

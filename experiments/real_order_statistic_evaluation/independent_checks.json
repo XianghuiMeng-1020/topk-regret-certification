@@ -1,0 +1,17 @@
+{
+  "n_fixtures": 230,
+  "n_injections": 273816,
+  "n_block_assignments": 1632,
+  "n_lp_supports": 26,
+  "n_k5_fixtures": 186,
+  "n_k5_mismatches": 0,
+  "max_exact_minus_coupled": 1.7763568394002505e-15,
+  "max_coupled_minus_strong": 1.7763568394002505e-15,
+  "max_strong_minus_rank1": 0.0,
+  "max_abs_matched_minus_reference": 0.0,
+  "max_abs_block_minus_brute": 0.0,
+  "max_abs_closed_minus_lp": 1.7763568394002505e-15,
+  "max_support_above_linear_arm": 0.0,
+  "n_failures": 0,
+  "failures": []
+}

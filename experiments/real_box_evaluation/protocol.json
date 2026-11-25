@@ -1,0 +1,321 @@
+{
+  "aggregation": "mean over the cells of a truth, then mean over truths in a dataset, then equal weight of the two datasets",
+  "alpha": 0.05,
+  "block_bootstrap": {
+    "design": "circular moving block within each source",
+    "length": 7,
+    "seed": 20261125
+  },
+  "bootstrap": {
+    "B": 1999,
+    "interval": "percentile 2.5 and 97.5",
+    "seed": 20261124,
+    "unit": "truth vector, all cells kept together"
+  },
+  "calibration": [
+    {
+      "dataset_id": "tlc_yellow",
+      "direct_le_union": true,
+      "direct_radius": 17.06962783554331,
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 261,
+      "union_radius": 17.12050536175337
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "direct_le_union": true,
+      "direct_radius": 8.534813917771656,
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 261,
+      "union_radius": 8.560252680876685
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "direct_le_union": true,
+      "direct_radius": 4.267406958885828,
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 261,
+      "union_radius": 4.2801263404383425
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "direct_le_union": true,
+      "direct_radius": 17.0,
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 261,
+      "union_radius": 18.0
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "direct_le_union": true,
+      "direct_radius": 8.0,
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 261,
+      "union_radius": 9.0
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "direct_le_union": true,
+      "direct_radius": 4.0,
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 261,
+      "union_radius": 5.0
+    },
+    {
+      "dataset_id": "gharchive",
+      "direct_le_union": true,
+      "direct_radius": 21.142221063760875,
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 2000,
+      "union_radius": 21.193269466192145
+    },
+    {
+      "dataset_id": "gharchive",
+      "direct_le_union": true,
+      "direct_radius": 10.571110531880437,
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 2000,
+      "union_radius": 10.596634733096073
+    },
+    {
+      "dataset_id": "gharchive",
+      "direct_le_union": true,
+      "direct_radius": 5.285555265940219,
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 2000,
+      "union_radius": 5.298317366548036
+    },
+    {
+      "dataset_id": "gharchive",
+      "direct_le_union": true,
+      "direct_radius": 21.0,
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 2000,
+      "union_radius": 22.0
+    },
+    {
+      "dataset_id": "gharchive",
+      "direct_le_union": true,
+      "direct_radius": 10.0,
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 2000,
+      "union_radius": 11.0
+    },
+    {
+      "dataset_id": "gharchive",
+      "direct_le_union": true,
+      "direct_radius": 5.0,
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 2000,
+      "union_radius": 6.0
+    }
+  ],
+  "cells_per_truth": 540,
+  "epsilon": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "experiment": "real_box_evaluation",
+  "inputs": {
+    "candidate_universes/gharchive_repos_top2000.json": "706126c42ce5fa26371938b0889f1710d0934f6da437f7242be7b39bfc73a56a",
+    "candidate_universes/tlc_pulocation_universe.json": "8d6604116210a0d3fa28e2f6d2874682a7b6fb90d49d730d5b7321db9d9b749f",
+    "manifests/gharchive_truth_manifest.jsonl": "745752764c77212af41fdb53d45934a4ad1cbee44caca4aa403ae2b8ae90978f",
+    "manifests/tlc_truth_manifest.jsonl": "942a6cff6abfd58e63b0d025b4a45da41d9a550ee64e2be4e3572b3dc7a9532c"
+  },
+  "invalid_methods_excluded": [
+    "certificate_mswap_os"
+  ],
+  "inverse_frontier": {
+    "c": 0.5
+  },
+  "k": [
+    5,
+    10,
+    25
+  ],
+  "master_seed": 20260807,
+  "mechanisms": {
+    "M1": "continuous Laplace, scale 1/epsilon",
+    "M2": "unit-sensitivity discrete Laplace"
+  },
+  "methods": [
+    "UNION_BOUND_BOX original family",
+    "DIRECT_JOINT_BOX original family",
+    "count-feasible exact assignment and raw relaxations on each event",
+    "monotone_closed_min_original_and_raw_plus"
+  ],
+  "normalization": "S = max(U(Y+), 1e-6); certify iff C/S <= tau with no additive slack",
+  "not_seedkey": true,
+  "numpy": "1.24.4",
+  "primary_tau": 0.1,
+  "python": "3.11.4",
+  "raw_gap_atol_diagnostic_only": 1e-08,
+  "replicates": 10,
+  "secondary_tau": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "seed": "SHA-256 of MASTER|truth_id|mechanism|epsilon|k|weight_family|replicate, first 16 hex digits, modulo 2**31-1. Python default float formatting.",
+  "sensitivity": 1.0,
+  "weight_vectors": {
+    "dcg_k10": [
+      1.0,
+      0.6309297535714575,
+      0.5,
+      0.43067655807339306,
+      0.38685280723454163,
+      0.3562071871080222,
+      0.3333333333333333,
+      0.31546487678572877,
+      0.3010299956639812,
+      0.2890648263178879
+    ],
+    "dcg_k25": [
+      1.0,
+      0.6309297535714575,
+      0.5,
+      0.43067655807339306,
+      0.38685280723454163,
+      0.3562071871080222,
+      0.3333333333333333,
+      0.31546487678572877,
+      0.3010299956639812,
+      0.2890648263178879,
+      0.27894294565112987,
+      0.27023815442731974,
+      0.26264953503719357,
+      0.2559580248098155,
+      0.25,
+      0.24465054211822604,
+      0.23981246656813146,
+      0.23540891336663824,
+      0.23137821315975915,
+      0.227670248696953,
+      0.22424382421757544,
+      0.22106472945750374,
+      0.21810429198553155,
+      0.21533827903669653,
+      0.21274605355336318
+    ],
+    "dcg_k5": [
+      1.0,
+      0.6309297535714575,
+      0.5,
+      0.43067655807339306,
+      0.38685280723454163
+    ],
+    "reciprocal_k10": [
+      1.0,
+      0.5,
+      0.3333333333333333,
+      0.25,
+      0.2,
+      0.16666666666666666,
+      0.14285714285714285,
+      0.125,
+      0.1111111111111111,
+      0.1
+    ],
+    "reciprocal_k25": [
+      1.0,
+      0.5,
+      0.3333333333333333,
+      0.25,
+      0.2,
+      0.16666666666666666,
+      0.14285714285714285,
+      0.125,
+      0.1111111111111111,
+      0.1,
+      0.09090909090909091,
+      0.08333333333333333,
+      0.07692307692307693,
+      0.07142857142857142,
+      0.06666666666666667,
+      0.0625,
+      0.058823529411764705,
+      0.05555555555555555,
+      0.05263157894736842,
+      0.05,
+      0.047619047619047616,
+      0.045454545454545456,
+      0.043478260869565216,
+      0.041666666666666664,
+      0.04
+    ],
+    "reciprocal_k5": [
+      1.0,
+      0.5,
+      0.3333333333333333,
+      0.25,
+      0.2
+    ],
+    "uniform_k10": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "uniform_k25": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "uniform_k5": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "weights": [
+    "uniform",
+    "dcg",
+    "reciprocal"
+  ]
+}

@@ -1,0 +1,1088 @@
+{
+  "n_tables": 108,
+  "max_positive_excess": 6.266688556966216e-16,
+  "n_tables_not_componentwise_nonincreasing": 0,
+  "max_positive_consecutive_step": 0.0,
+  "tables": [
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -4.6731715719339206e-14,
+      "min_excess": -3.017412708583578e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -1.0459948879271153e-14,
+      "min_excess": -5.19380545516146e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -9.856698790500218e-15,
+      "min_excess": -4.3754062872825017e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -5.6924950864178925e-15,
+      "min_excess": -5.249941106844069e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -1.1148352206669099e-13,
+      "min_excess": -4.56479472277227e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -9.157605229681565e-15,
+      "min_excess": -3.366252589176444e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -7.644492677760795e-15,
+      "min_excess": -5.940181072722206e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -5.239298578318952e-15,
+      "min_excess": -3.901159994004755e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -2.5379004453540688e-15,
+      "min_excess": -2.3860861203539585e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -1.3020921146855713e-13,
+      "min_excess": -1.0032842612250903e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -1.0459948879271153e-14,
+      "min_excess": -5.19380545516146e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -1.6377697809044633e-13,
+      "min_excess": -5.058210794661733e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -5.6924950864178925e-15,
+      "min_excess": -1.3558537972913065e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -1.1148352206669099e-13,
+      "min_excess": -9.618007345418844e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -9.157605229681565e-15,
+      "min_excess": -5.83701056239283e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -1.668847351976588e-14,
+      "min_excess": -9.425485565650593e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -5.239298578318952e-15,
+      "min_excess": -8.213230442977171e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -8.023096076392733e-15,
+      "min_excess": -5.390844021180285e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -3.017412708583578e-13,
+      "min_excess": -1.0032842612250903e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -1.6512832767823227e-13,
+      "min_excess": -1.608171928957347e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -3.192563401144266e-13,
+      "min_excess": -1.4977342283062356e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -5.6924950864178925e-15,
+      "min_excess": -3.0175948545485554e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -1.1148352206669099e-13,
+      "min_excess": -1.9724521495290137e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -9.157605229681565e-15,
+      "min_excess": -1.3040857456403376e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -2.9516970465048864e-14,
+      "min_excess": -2.003979013981416e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -1.3449202689030937e-14,
+      "min_excess": -1.6837441814063214e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -8.023096076392733e-15,
+      "min_excess": -8.980184217771692e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -0.00028499621081038047,
+      "min_excess": -0.004396467908419563,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -0.0011302776413013305,
+      "min_excess": -0.0028704872181118894,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0015862489303173726,
+      "min_excess": -0.0036001776189499794,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -6.396131112303832e-06,
+      "min_excess": -0.0023976308679130687,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -0.0006385854332104607,
+      "min_excess": -0.0020444103641941848,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0004774873820126914,
+      "min_excess": -0.001352635672965513,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -2.295805807611207e-06,
+      "min_excess": -0.0009991871034267042,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -0.00012375542647845414,
+      "min_excess": -0.0010570315531331343,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -0.00010666165254479896,
+      "min_excess": -0.002087764584687385,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -0.001818263482500299,
+      "min_excess": -0.004870835293463141,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -0.0022442724322258574,
+      "min_excess": -0.005297268614340701,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -0.001329789963530459,
+      "min_excess": -0.003518162162608436,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -0.00046148411265453703,
+      "min_excess": -0.0024990692760412984,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -0.0009622727953969663,
+      "min_excess": -0.002320557639952303,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0007264208870794808,
+      "min_excess": -0.005353692286185437,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -8.891000933299194e-05,
+      "min_excess": -0.000999999339687519,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -2.556193725936247e-05,
+      "min_excess": -0.0019026930538385241,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -3.216298485146635e-05,
+      "min_excess": -0.0033696979677487054,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -0.002184631516722548,
+      "min_excess": -0.00492862657871666,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -0.0009005110404078183,
+      "min_excess": -0.007067517477869351,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0005660733075088555,
+      "min_excess": -0.003578261615213009,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -0.0010885123460289488,
+      "min_excess": -0.0024999994920581726,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -0.0006561926135614112,
+      "min_excess": -0.004090806503480954,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0008535423724266861,
+      "min_excess": -0.007123941149714087,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -0.0006172071435219765,
+      "min_excess": -0.0009999999988535334,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -0.0004246871830460365,
+      "min_excess": -0.0018858245522823237,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 261,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0001211636423872386,
+      "min_excess": -0.005139946831277355,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -1.1672954269847935e-14,
+      "min_excess": -4.583044013739546e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -2.771862600559061e-13,
+      "min_excess": -6.09504634263569e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -9.081277396738585e-14,
+      "min_excess": -4.712254891847678e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -1.481930897440087e-14,
+      "min_excess": -6.417765624489036e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -3.879492213587632e-14,
+      "min_excess": -4.21434805455978e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -2.7777259659078624e-15,
+      "min_excess": -3.480020091539693e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -1.9127928407858263e-14,
+      "min_excess": -4.60255314763125e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": 6.266688556966216e-16,
+      "min_excess": -4.264571551795826e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -7.079623345895847e-15,
+      "min_excess": -2.7572041871870567e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -9.705864584264035e-14,
+      "min_excess": -9.22982176798648e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -2.771862600559061e-13,
+      "min_excess": -1.0526436493296654e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -9.081277396738585e-14,
+      "min_excess": -9.782660792545528e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -1.481930897440087e-14,
+      "min_excess": -1.1485864342963836e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -1.0365775078569062e-13,
+      "min_excess": -7.534662997688013e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -7.418111264145821e-15,
+      "min_excess": -5.346278975082441e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -1.9127928407858263e-14,
+      "min_excess": -9.845147700554557e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -2.063453574674412e-15,
+      "min_excess": -8.72750005945222e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -1.8041015729941545e-14,
+      "min_excess": -5.637400268820869e-13,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -9.705864584264035e-14,
+      "min_excess": -2.5585089602486732e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -3.784802332651438e-13,
+      "min_excess": -2.391880096763721e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -9.310781312610317e-14,
+      "min_excess": -1.0720513018980249e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -1.481930897440087e-14,
+      "min_excess": -2.6186171286912696e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -1.0365775078569062e-13,
+      "min_excess": -1.5107908413886095e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -5.2960674040702926e-14,
+      "min_excess": -1.344147015913677e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -7.288202159838608e-14,
+      "min_excess": -1.926141104252599e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -2.063453574674412e-15,
+      "min_excess": -1.765317926560872e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M1",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -2.5523962284002e-14,
+      "min_excess": -1.181697968644091e-12,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -0.0003713598618836512,
+      "min_excess": -0.004272531891523207,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -0.0008591254878704399,
+      "min_excess": -0.0027442303527529348,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0013950982060086138,
+      "min_excess": -0.0033290254655190888,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -0.0002599744137220454,
+      "min_excess": -0.0023552579793901115,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -0.0002499706542109228,
+      "min_excess": -0.0019339876254848615,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -0.00018836005310665736,
+      "min_excess": -0.0012263788076065582,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -9.252160668527366e-05,
+      "min_excess": -0.0009982843335575632,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -0.0002546486003970434,
+      "min_excess": -0.0010132552786853324,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 0.5,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -0.00010372433358789637,
+      "min_excess": -0.0019227943471320577,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -0.0017005859313789944,
+      "min_excess": -0.0048430540973966145,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -0.0020211780618611605,
+      "min_excess": -0.005179591063219396,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -0.001106695593165762,
+      "min_excess": -0.0033673740513983533,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -0.00039292149665382794,
+      "min_excess": -0.0024985594669744743,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -0.0007391784250322692,
+      "min_excess": -0.0022028800888309985,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0005033265167147837,
+      "min_excess": -0.005236014735064132,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -0.00014538077816210698,
+      "min_excess": -0.0009999996784251265,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -0.00012195592469733886,
+      "min_excess": -0.0018593091030590897,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 1.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -7.327937105600915e-06,
+      "min_excess": -0.003252020416627401,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "uniform",
+      "max_excess": -0.001824312689674696,
+      "min_excess": -0.004919809845760436,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "dcg",
+      "max_excess": -0.00047602143574235634,
+      "min_excess": -0.007015260783624383,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 5,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0001836320525050051,
+      "min_excess": -0.0035694448822567856,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "uniform",
+      "max_excess": -0.0010362556517839812,
+      "min_excess": -0.0024999991790798145,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "dcg",
+      "max_excess": -0.00044032696580633725,
+      "min_excess": -0.004038549809235986,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 10,
+      "weight_family": "reciprocal",
+      "max_excess": -0.0008535420594483278,
+      "min_excess": -0.007071684455469119,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "uniform",
+      "max_excess": -0.0003964283763138336,
+      "min_excess": -0.000999999997868046,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "dcg",
+      "max_excess": -0.00020390841583789367,
+      "min_excess": -0.0018815815157396392,
+      "prefix_min_changes": false
+    },
+    {
+      "n": 2000,
+      "mechanism": "M2",
+      "epsilon": 2.0,
+      "k": 25,
+      "weight_family": "reciprocal",
+      "max_excess": -0.00024448311159167664,
+      "min_excess": -0.005087690137032388,
+      "prefix_min_changes": false
+    }
+  ]
+}

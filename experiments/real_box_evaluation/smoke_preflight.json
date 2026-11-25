@@ -1,0 +1,61 @@
+{
+  "n": 8,
+  "rows": [
+    {
+      "truth_id": "tlc_yellow::pu_zones::2024-04-01",
+      "mechanism": "M1",
+      "replicate": 0,
+      "seed": 1086146696,
+      "y_sha256": "e2ef19d2c54d3ca303aa4433da63840327f53320bf4438bdea340c1e844f7bd2"
+    },
+    {
+      "truth_id": "tlc_yellow::pu_zones::2024-04-01",
+      "mechanism": "M1",
+      "replicate": 1,
+      "seed": 1069947176,
+      "y_sha256": "7fd952bdefb6606cf538a460cb69f6dc0545645853153c7fc0c46bf681e7edea"
+    },
+    {
+      "truth_id": "tlc_yellow::pu_zones::2024-04-01",
+      "mechanism": "M2",
+      "replicate": 0,
+      "seed": 777628375,
+      "y_sha256": "2b69cfeb20c5a8e6c5bf6479f0255bf00e018274a79ee0e8ee2ddb5e51ad544c"
+    },
+    {
+      "truth_id": "tlc_yellow::pu_zones::2024-04-01",
+      "mechanism": "M2",
+      "replicate": 1,
+      "seed": 691094823,
+      "y_sha256": "130433da0828039c023e8942a6f07be99e920aac250d112c83e99958ede0dae2"
+    },
+    {
+      "truth_id": "gharchive::repos::2024-02-01",
+      "mechanism": "M1",
+      "replicate": 0,
+      "seed": 1341115718,
+      "y_sha256": "0060ebfa680a5b59813e529a69164c375be3afebe8cfbedaecb4b138fab98742"
+    },
+    {
+      "truth_id": "gharchive::repos::2024-02-01",
+      "mechanism": "M1",
+      "replicate": 1,
+      "seed": 61218195,
+      "y_sha256": "98c728fde7ca271e94fd33f9fe861fab8147fd777bf51f90413218a13056b974"
+    },
+    {
+      "truth_id": "gharchive::repos::2024-02-01",
+      "mechanism": "M2",
+      "replicate": 0,
+      "seed": 641055269,
+      "y_sha256": "1852ef254526d9878478f9fe9d13b36dd636af7413f2e0bd0ce1d137689e8da4"
+    },
+    {
+      "truth_id": "gharchive::repos::2024-02-01",
+      "mechanism": "M2",
+      "replicate": 1,
+      "seed": 784287012,
+      "y_sha256": "f3c3971cef5b861a7f05ced94e0a2a87975fa8942c8d5c424338b423d2c34abf"
+    }
+  ]
+}

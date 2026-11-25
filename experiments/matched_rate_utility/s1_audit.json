@@ -1,0 +1,625 @@
+{
+  "n_s1": 38575,
+  "max_abs_envelope_minus_rank1": 0.0,
+  "n_envelope_rank1_gap_gt_1e-8": 0,
+  "n_strong_gap_gt_1e-8": 24357,
+  "decisions": {
+    "0.05": {
+      "n_refinement_disagreement": 0,
+      "n_os_coupling_disagreement": 924
+    },
+    "0.1": {
+      "n_refinement_disagreement": 0,
+      "n_os_coupling_disagreement": 0
+    },
+    "0.25": {
+      "n_refinement_disagreement": 0,
+      "n_os_coupling_disagreement": 0
+    },
+    "0.5": {
+      "n_refinement_disagreement": 0,
+      "n_os_coupling_disagreement": 0
+    },
+    "1.0": {
+      "n_refinement_disagreement": 0,
+      "n_os_coupling_disagreement": 0
+    }
+  },
+  "breakdown_nonzero_only": [
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 251,
+      "n_certificate_gap_gt_1e-8": 251
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 253,
+      "n_certificate_gap_gt_1e-8": 253
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 346,
+      "n_certificate_gap_gt_1e-8": 346
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 350,
+      "n_certificate_gap_gt_1e-8": 350
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 350,
+      "n_certificate_gap_gt_1e-8": 350
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 352,
+      "n_certificate_gap_gt_1e-8": 352
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 41,
+      "n_certificate_gap_gt_1e-8": 41
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 67,
+      "n_certificate_gap_gt_1e-8": 67
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 178,
+      "n_certificate_gap_gt_1e-8": 178
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 219,
+      "n_certificate_gap_gt_1e-8": 219
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 234,
+      "n_certificate_gap_gt_1e-8": 234
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 296,
+      "n_certificate_gap_gt_1e-8": 296
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 132,
+      "n_certificate_gap_gt_1e-8": 132
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 124,
+      "n_certificate_gap_gt_1e-8": 124
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 347,
+      "n_certificate_gap_gt_1e-8": 347
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 349,
+      "n_certificate_gap_gt_1e-8": 349
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 348,
+      "n_certificate_gap_gt_1e-8": 348
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 346,
+      "n_certificate_gap_gt_1e-8": 346
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 360,
+      "n_certificate_gap_gt_1e-8": 360
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 27,
+      "n_certificate_gap_gt_1e-8": 27
+    },
+    {
+      "dataset_id": "gharchive",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 48,
+      "n_certificate_gap_gt_1e-8": 48
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 439,
+      "n_certificate_gap_gt_1e-8": 439
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 440,
+      "n_certificate_gap_gt_1e-8": 440
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 446,
+      "n_certificate_gap_gt_1e-8": 446
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 449,
+      "n_certificate_gap_gt_1e-8": 449
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 10,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "dcg",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "reciprocal",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 0.5,
+      "mechanism": "M1",
+      "n": 413,
+      "n_certificate_gap_gt_1e-8": 413
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 0.5,
+      "mechanism": "M2",
+      "n": 440,
+      "n_certificate_gap_gt_1e-8": 440
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 1.0,
+      "mechanism": "M1",
+      "n": 434,
+      "n_certificate_gap_gt_1e-8": 434
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 1.0,
+      "mechanism": "M2",
+      "n": 448,
+      "n_certificate_gap_gt_1e-8": 448
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M1",
+      "n": 440,
+      "n_certificate_gap_gt_1e-8": 440
+    },
+    {
+      "dataset_id": "tlc_yellow",
+      "k": 25,
+      "weight_family": "uniform",
+      "epsilon": 2.0,
+      "mechanism": "M2",
+      "n": 450,
+      "n_certificate_gap_gt_1e-8": 450
+    }
+  ],
+  "interpretation": "s=1 forces the coupled envelope to equal the rank-1 coupled box. It does not force equality with the strong envelope."
+}

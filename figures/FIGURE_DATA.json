@@ -1,0 +1,79 @@
+{
+  "sources": {
+    "experiments/real_box_evaluation/source_results.json": "ead695400374d09527925e514707757666ac34568b9add989b591ef70f5c3db5",
+    "experiments/real_box_evaluation/bootstrap.json": "cdf5a20d146b67f8950a9b28fd14815c1b5b6cedb9c0e02126a96830fffb4379",
+    "experiments/real_order_statistic_evaluation/bootstrap.json": "ba0816fdf26d8818ca145141e2c26aa913abe4a6c2ecfb97504041acaa8e3528",
+    "experiments/time_forward_utility/primary_summary.json": "867eff25ac82119b712e93bacaa0cdcfa393f695a88912e9ab6e9a6409a7045e"
+  },
+  "figures": {
+    "certification_rate_vs_tau.svg": {
+      "sha256": "d9e4f015eb99f4467f4e343f673046c46ea11a2ae69019875ccc2041df4a9dbc",
+      "values": {
+        "tlc.strong_union.tau=0.05": 1.0,
+        "tlc.strong_union.tau=0.1": 1.0,
+        "tlc.strong_union.tau=0.25": 1.0,
+        "tlc.strong_union.tau=0.5": 1.0,
+        "tlc.strong_union.tau=1.0": 1.0,
+        "tlc.box_union.tau=0.05": 1.0,
+        "tlc.box_union.tau=0.1": 1.0,
+        "tlc.box_union.tau=0.25": 1.0,
+        "tlc.box_union.tau=0.5": 1.0,
+        "tlc.box_union.tau=1.0": 1.0,
+        "github.strong_union.tau=0.05": 0.7435699588477366,
+        "github.strong_union.tau=0.1": 0.9359567901234568,
+        "github.strong_union.tau=0.25": 0.9989711934156378,
+        "github.strong_union.tau=0.5": 1.0,
+        "github.strong_union.tau=1.0": 1.0,
+        "github.box_union.tau=0.05": 0.9985082304526749,
+        "github.box_union.tau=0.1": 1.0,
+        "github.box_union.tau=0.25": 1.0,
+        "github.box_union.tau=0.5": 1.0,
+        "github.box_union.tau=1.0": 1.0
+      }
+    },
+    "coupling_gain_decomposition.svg": {
+      "sha256": "a96f3dcbca972d0470c6980c729e23973c01a73c8818cfebf4ff324f6241efbd",
+      "values": {
+        "Box event: coupled \u2212 strong": {
+          "point": 0.03202160493827155,
+          "lo": 0.025617283950617457,
+          "hi": 0.04059799382716058
+        },
+        "OS rank-1 box: coupled \u2212 strong": {
+          "point": 0.05378086419753081,
+          "lo": 0.04338605967078188,
+          "hi": 0.06450874485596707
+        },
+        "OS-aware envelope: coupled \u2212 strong": {
+          "point": 0.0041152263374485964,
+          "lo": 0.0,
+          "hi": 0.009773662551440299
+        },
+        "Coupled envelope \u2212 coupled rank-1": {
+          "point": 0.0004115226337448874,
+          "lo": 0.0,
+          "hi": 0.0012345679012346622
+        }
+      }
+    },
+    "time_forward_utility.svg": {
+      "sha256": "a1cfafe6f4bae37aef9ca9b3b1bf775301dcef400ce003b9683a4b163bb37bdd",
+      "values": {
+        "D_accept.macro": -0.020823045267489706,
+        "D_regret.macro": 3.2744074063858255e-06,
+        "frac_l.gharchive": 0.6001234567901235,
+        "frac_r.gharchive": 0.6175308641975308,
+        "frac_l.tlc_yellow": 0.637037037037037,
+        "frac_r.tlc_yellow": 0.5779835390946502,
+        "frac_l.macro": 0.6185802469135802,
+        "frac_r.macro": 0.5977572016460905,
+        "mean_l.gharchive": 1.8588802299793145e-05,
+        "mean_r.gharchive": 1.2094617428915476e-05,
+        "mean_l.tlc_yellow": 6.190011043503394e-08,
+        "mean_r.tlc_yellow": 7.270168541052561e-09,
+        "mean_l.macro": 9.32535120511409e-06,
+        "mean_r.macro": 6.050943798728264e-06
+      }
+    }
+  }
+}

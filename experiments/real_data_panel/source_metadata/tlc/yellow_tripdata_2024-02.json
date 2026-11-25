@@ -1,0 +1,11 @@
+{
+  "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet",
+  "acquisition_utc_start": "2026-11-24T07:50:47Z",
+  "acquisition_utc_end": "2026-11-24T07:50:58Z",
+  "content_length": "50349284",
+  "actual_bytes": 50349284,
+  "last_modified": "Fri, 19 Apr 2024 18:22:42 GMT",
+  "etag": "\"7337741e6032c0652369749781534e79-3\"",
+  "sha256": "c76c43c18c6c6664080dd920baab4928988d5786a6b65980792ca7cd796f9f20",
+  "path": "data/source_objects/tlc/yellow_tripdata_2024-02.parquet"
+}

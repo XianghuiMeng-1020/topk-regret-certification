@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet",
+    "head_utc": "2026-11-24T07:50:30Z",
+    "status": 200,
+    "content_length": "49961641",
+    "last_modified": "Thu, 21 Mar 2024 15:35:44 GMT",
+    "etag": "\"d6ebae95a45f284994e283e2df97c06f-3\"",
+    "content_type": "binary/octet-stream"
+  },
+  {
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet",
+    "head_utc": "2026-11-24T07:50:30Z",
+    "status": 200,
+    "content_length": "50349284",
+    "last_modified": "Fri, 19 Apr 2024 18:22:42 GMT",
+    "etag": "\"7337741e6032c0652369749781534e79-3\"",
+    "content_type": "binary/octet-stream"
+  },
+  {
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-04.parquet",
+    "head_utc": "2026-11-24T07:50:31Z",
+    "status": 200,
+    "content_length": "59133625",
+    "last_modified": "Thu, 20 Jun 2024 20:30:14 GMT",
+    "etag": "\"e67ba6e0a21daa942fb9c10aafa2a354-4\"",
+    "content_type": "binary/octet-stream"
+  },
+  {
+    "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-05.parquet",
+    "head_utc": "2026-11-24T07:50:31Z",
+    "status": 200,
+    "content_length": "62553128",
+    "last_modified": "Thu, 18 Jul 2024 18:35:19 GMT",
+    "etag": "\"e7dbcee49593af9a20818857f421e7be-4\"",
+    "content_type": "binary/octet-stream"
+  }
+]

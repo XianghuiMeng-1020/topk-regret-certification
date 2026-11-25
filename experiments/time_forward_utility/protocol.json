@@ -1,0 +1,148 @@
+{
+  "experiment": "time_forward_utility",
+  "label": "CHRONOLOGICAL_HOLDOUT_SENSITIVITY",
+  "not": [
+    "independent prospective confirmation",
+    "newly collected validation",
+    "never-before-seen test panel",
+    "randomized experiment",
+    "conditional coverage"
+  ],
+  "input_sha256": {
+    "box_ledger": "281ca9b676184d7450bbd2c8da225b94da312bb37d3c97855b1818ecc8c956cf",
+    "os_eval_ledger": "eeac20c3ddb213fc9a6c302174162ae0b93bd5489b19f9f984b66265b121a72e",
+    "matched_protocol": "38ba078b479c86a2df35d702a5f75572d40b98d4a9142dce66ab24b1634573d2",
+    "matched_frontier": "3820f91755115d2eb22bcf246906c9dce3fa179d611e06af92454ed6b5564957",
+    "tlc_manifest": "942a6cff6abfd58e63b0d025b4a45da41d9a550ee64e2be4e3572b3dc7a9532c",
+    "gh_manifest": "745752764c77212af41fdb53d45934a4ad1cbee44caca4aa403ae2b8ae90978f"
+  },
+  "primary_split": {
+    "rule": "earliest 60 percent of truth dates within each dataset",
+    "tlc_yellow": {
+      "n_truth_cal": 27,
+      "n_truth_eval": 18,
+      "cal_start": "2024-04-01",
+      "cal_end": "2024-04-27",
+      "eval_start": "2024-04-28",
+      "eval_end": "2024-05-15",
+      "cells_cal": 14580,
+      "cells_eval": 9720
+    },
+    "gharchive": {
+      "n_truth_cal": 21,
+      "n_truth_eval": 15,
+      "cal_start": "2024-02-01",
+      "cal_end": "2024-02-21",
+      "eval_start": "2024-02-22",
+      "eval_end": "2024-03-07",
+      "cells_cal": 11340,
+      "cells_eval": 8100
+    }
+  },
+  "sensitivity_splits": {
+    "50_50": "floor(0.50 * n_dates): TLC 22/23, GitHub 18/18",
+    "70_30": "floor(0.70 * n_dates): TLC 31/14, GitHub 25/11"
+  },
+  "score": "q = C/S from the canonical box-event and order-statistic decision columns. Lower is more favorable.",
+  "pairs": {
+    "A_union": [
+      "union_C_strong",
+      "union_C_box"
+    ],
+    "B_direct": [
+      "direct_C_strong",
+      "direct_C_box"
+    ],
+    "C_os_rank1": [
+      "C_OS_rank1_strong",
+      "C_OS_rank1_coupled"
+    ],
+    "D_os_envelope": [
+      "C_OS_strong_envelope",
+      "C_OS_coupled_envelope"
+    ]
+  },
+  "sign": {
+    "D_accept": "test acceptance fraction of the coupled or refined score minus the structural score",
+    "D_regret": "mean accepted r of the structural score minus mean accepted r of the coupled score, only where both accepted sets are nonempty. Positive means the coupled accepted set has lower mean regret. This is not a matched-rate contrast."
+  },
+  "c_train_primary": {
+    "label": "0.50",
+    "numer": 1,
+    "denom": 2
+  },
+  "c_train_secondary": [
+    {
+      "label": "0.25",
+      "numer": 1,
+      "denom": 4
+    },
+    {
+      "label": "0.75",
+      "numer": 3,
+      "denom": 4
+    }
+  ],
+  "policy": "Accept q < v. Reject q > v. At q == v, keep the cell when hash * n_equal < need * 2^64.",
+  "hash": {
+    "seed": 20270111,
+    "payload": "G5F-THIN|{seed}|{truth_id}|{mechanism}|{str(epsilon)}|{k}|{weight}|{replicate}",
+    "bits": "SHA-256 first 16 hex digits as uint64"
+  },
+  "gammas": [
+    0.0,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "taus": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "aggregation": "equal weight over 54 configurations within a dataset, then equal weight across TLC and GitHub",
+  "bootstrap": {
+    "test_truth_cluster": {
+      "B": 1999,
+      "seed": 20270112,
+      "thresholds": "fixed"
+    },
+    "test_circular_block_days": {
+      "B": 1999,
+      "seed": 20270113,
+      "block": 7,
+      "thresholds": "fixed"
+    },
+    "calibration_block_refit": {
+      "B": 399,
+      "seed": 20270114,
+      "block": 7,
+      "test_period": "fixed original"
+    }
+  },
+  "frontier_denominator": 194400,
+  "frontier_targets_numerator": {
+    "0.10": 19440,
+    "0.25": 48600,
+    "0.50": 97200,
+    "0.75": 145800,
+    "0.90": 174960,
+    "0.95": 184680
+  },
+  "multiplicity": "Primary output is the union pair at c_train=0.50 on the 60/40 split, reported as acceptance and accepted regret jointly. Other coverages, pairs, gammas, and splits are secondary. The three splits are not independent replications.",
+  "tolerances": {
+    "score_equality": "exact floating equality",
+    "material_certificate_gap": "true_regret > C + 1e-6*(1+|C|) + 1e-8"
+  },
+  "python": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "1.24.4",
+  "pandas": "2.2.2",
+  "scipy": "1.14.1",
+  "pyarrow": "17.0.0",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "machine": "arm64"
+}

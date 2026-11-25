@@ -1,0 +1,187 @@
+{
+  "experiment": "matched_rate_utility",
+  "primary_estimand": "Equal-weight macro of within-stratum mean realized normalized regret at matched cardinality, union coupled versus union strong, c=0.50",
+  "sign": "D = mean regret of the structural or baseline selector minus mean regret of the coupled or refined selector. D>0 means the coupled or refined selector has lower realized regret.",
+  "primary_c": {
+    "label": "0.50",
+    "numer": 1,
+    "denom": 2
+  },
+  "secondary_c": [
+    {
+      "label": "0.10",
+      "numer": 1,
+      "denom": 10
+    },
+    {
+      "label": "0.25",
+      "numer": 1,
+      "denom": 4
+    },
+    {
+      "label": "0.75",
+      "numer": 3,
+      "denom": 4
+    },
+    {
+      "label": "0.90",
+      "numer": 9,
+      "denom": 10
+    },
+    {
+      "label": "0.95",
+      "numer": 19,
+      "denom": 20
+    }
+  ],
+  "cardinality": "m = (numer * N) // denom within each selection group",
+  "strata": "dataset x mechanism x epsilon x k x weight family",
+  "aggregation": "mean within stratum, equal weight across the 54 configurations inside a dataset, equal weight across TLC and GitHub",
+  "source_only_sensitivity": "separate estimand: match cardinality within a dataset and do not stratify by configuration",
+  "outcome": "r = true_regret / S, S = max(U, 1e-6) from the input ledgers",
+  "score": "q = C / S, lower is more favorable",
+  "pairs": {
+    "A_union": [
+      "union_C_strong",
+      "union_C_box"
+    ],
+    "B_direct": [
+      "direct_C_strong",
+      "direct_C_box"
+    ],
+    "C_os_rank1": [
+      "C_OS_rank1_strong",
+      "C_OS_rank1_coupled"
+    ],
+    "D_os_envelope": [
+      "C_OS_strong_envelope",
+      "C_OS_coupled_envelope"
+    ],
+    "E_coupled_refinement": [
+      "C_OS_rank1_coupled",
+      "C_OS_coupled_envelope"
+    ],
+    "F_strong_refinement": [
+      "C_OS_rank1_strong",
+      "C_OS_strong_envelope"
+    ]
+  },
+  "pair_meaning": "Each pair is [baseline, refined_or_coupled]. D uses baseline minus refined_or_coupled.",
+  "secondary_count_feasible_pairs": {
+    "union_raw": [
+      "union_C_strong_plus_decision",
+      "union_C_box_plus"
+    ],
+    "union_closed": [
+      "union_C_strong_plus_closed",
+      "union_C_box_plus"
+    ],
+    "direct_raw": [
+      "direct_C_strong_plus_decision",
+      "direct_C_box_plus"
+    ],
+    "direct_closed": [
+      "direct_C_strong_plus_closed",
+      "direct_C_box_plus"
+    ]
+  },
+  "gammas": [
+    0.0,
+    0.001,
+    0.01,
+    0.05,
+    0.1
+  ],
+  "gamma0": "bad outcome is r > 0",
+  "tie_rule": {
+    "master": 20261128,
+    "payload": "{master}|{truth_id}|{mechanism}|{str(epsilon)}|{k}|{weight_family}|{replicate}",
+    "epsilon_format": "Python str of the float, so 0.5, 1.0, 2.0",
+    "digest": "SHA-256 first 16 hex digits as an integer; smaller is selected first",
+    "order": [
+      "q ascending",
+      "shared tie priority ascending",
+      "truth date order",
+      "replicate"
+    ],
+    "sensitivity_seeds": [
+      20261201,
+      20261202,
+      20261203,
+      20261204,
+      20261205,
+      20261206,
+      20261207,
+      20261208,
+      20261209,
+      20261210,
+      20261211,
+      20261212,
+      20261213,
+      20261214,
+      20261215,
+      20261216,
+      20261217,
+      20261218,
+      20261219,
+      20261220,
+      20261221,
+      20261222,
+      20261223,
+      20261224,
+      20261225,
+      20261226,
+      20261227,
+      20261228,
+      20261229,
+      20261230,
+      20261231,
+      20261232,
+      20261233,
+      20261234,
+      20261235,
+      20261236,
+      20261237,
+      20261238,
+      20261239,
+      20261240,
+      20261241,
+      20261242,
+      20261243,
+      20261244,
+      20261245,
+      20261246,
+      20261247,
+      20261248,
+      20261249,
+      20261250
+    ],
+    "note": "The primary priority uses master 20261128. Sensitivity seeds replace only that master and are not the primary analysis."
+  },
+  "bootstrap": {
+    "B": 1999,
+    "truth_cluster_seed": 20261129,
+    "circular_block_seed": 20261130,
+    "block_days": 7
+  },
+  "negative_control": "k<=5 canonical scores are identical, so shared-priority selections and D_regret are exactly identical",
+  "frontier": "exact weighted step-function inverse; TLC cell weight 0.5/24300 and GitHub cell weight 0.5/19440",
+  "margin_descriptive_rule": "nonpositive if boundary_margin<=0; within_rank1 if 0<margin<=t_rank1; above otherwise. Descriptive partition of accepted cells, not a new selection design.",
+  "multiplicity": "Only c=0.50 union stratified D_regret is primary. Other c, gamma, pairs, and slices are secondary or exploratory.",
+  "not_a_new_dp_guarantee": "Matched-rate cutoffs are retrospective and are not additional 1-alpha certificates.",
+  "input_ledger_sha256": {
+    "box": "281ca9b676184d7450bbd2c8da225b94da312bb37d3c97855b1818ecc8c956cf",
+    "os_eval": "eeac20c3ddb213fc9a6c302174162ae0b93bd5489b19f9f984b66265b121a72e"
+  },
+  "input_protocol_sha256": {
+    "box": "a85d4177a4614036001fb76c5edeb26d78e3b4182fc709cb2d079414794caccc",
+    "os_eval": "a437eb725bcc0aefcb3db42f6f5deb76f2f9a707c9020fbc8eb2a95ec873e979"
+  },
+  "input_manifest_sha256": {
+    "manifests/tlc_truth_manifest.jsonl": "942a6cff6abfd58e63b0d025b4a45da41d9a550ee64e2be4e3572b3dc7a9532c",
+    "manifests/gharchive_truth_manifest.jsonl": "745752764c77212af41fdb53d45934a4ad1cbee44caca4aa403ae2b8ae90978f"
+  },
+  "python": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "1.24.4",
+  "pandas": "2.2.2"
+}

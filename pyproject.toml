@@ -1,0 +1,33 @@
+[project]
+name = "topk-regret-certification"
+version = "1.0.0"
+description = "One Competitor, One Certificate: coupled weighted Top-K regret certificates after differentially private count releases."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11,<3.12"
+# Exact pins for the real-data experiments are in requirements.lock and for the
+# synthetic experiments in requirements-synthetic.lock.
+dependencies = [
+  "numpy==1.24.4",
+  "pandas==2.2.2",
+  "pyarrow==17.0.0",
+  "pyyaml==6.0.1",
+  "scipy==1.14.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.3.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/private_mobility_cert"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-q -p no:cacheprovider"

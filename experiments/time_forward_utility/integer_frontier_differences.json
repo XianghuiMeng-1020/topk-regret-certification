@@ -1,0 +1,116 @@
+[
+  {
+    "method": "union_coupled",
+    "c": "0.75",
+    "matched_T": 0.0018016530166427701,
+    "integer_T": 0.0018013103923761673
+  },
+  {
+    "method": "union_coupled",
+    "c": "0.90",
+    "matched_T": 0.005912692178563864,
+    "integer_T": 0.005911543057288793
+  },
+  {
+    "method": "union_coupled",
+    "c": "0.95",
+    "matched_T": 0.010354565422026984,
+    "integer_T": 0.010347924846593103
+  },
+  {
+    "method": "union_strong",
+    "c": "0.90",
+    "matched_T": 0.059424916035618655,
+    "integer_T": 0.05942244785413246
+  },
+  {
+    "method": "union_strong",
+    "c": "0.95",
+    "matched_T": 0.08460341912461353,
+    "integer_T": 0.08459678591790111
+  },
+  {
+    "method": "direct_coupled",
+    "c": "0.90",
+    "matched_T": 0.005584756898817346,
+    "integer_T": 0.0055845574845210634
+  },
+  {
+    "method": "direct_coupled",
+    "c": "0.95",
+    "matched_T": 0.009819305821677893,
+    "integer_T": 0.009819290313067535
+  },
+  {
+    "method": "direct_strong",
+    "c": "0.25",
+    "matched_T": 0.0006989523357770198,
+    "integer_T": 0.0006984064422964792
+  },
+  {
+    "method": "direct_strong",
+    "c": "0.90",
+    "matched_T": 0.056850443135599935,
+    "integer_T": 0.0568435358359789
+  },
+  {
+    "method": "direct_strong",
+    "c": "0.95",
+    "matched_T": 0.08138189405193945,
+    "integer_T": 0.08137522153114636
+  },
+  {
+    "method": "os_rank1_coupled",
+    "c": "0.75",
+    "matched_T": 0.002159549565579446,
+    "integer_T": 0.0021588222606694655
+  },
+  {
+    "method": "os_rank1_coupled",
+    "c": "0.90",
+    "matched_T": 0.007625944219827313,
+    "integer_T": 0.0076183320747786045
+  },
+  {
+    "method": "os_rank1_coupled",
+    "c": "0.95",
+    "matched_T": 0.013751909987498263,
+    "integer_T": 0.013728257066428167
+  },
+  {
+    "method": "os_rank1_strong",
+    "c": "0.90",
+    "matched_T": 0.06818427825088084,
+    "integer_T": 0.06816886353036274
+  },
+  {
+    "method": "os_rank1_strong",
+    "c": "0.95",
+    "matched_T": 0.10399668739620872,
+    "integer_T": 0.10399205140771052
+  },
+  {
+    "method": "os_coupled_envelope",
+    "c": "0.75",
+    "matched_T": 0.002056814352246579,
+    "integer_T": 0.0020563585380684087
+  },
+  {
+    "method": "os_coupled_envelope",
+    "c": "0.90",
+    "matched_T": 0.006601697579377554,
+    "integer_T": 0.006601430663751564
+  },
+  {
+    "method": "os_coupled_envelope",
+    "c": "0.95",
+    "matched_T": 0.010992632785619018,
+    "integer_T": 0.010991578509191097
+  },
+  {
+    "method": "os_strong_envelope",
+    "c": "0.95",
+    "matched_T": 0.06177194130776201,
+    "integer_T": 0.061769683092046807
+  }
+]

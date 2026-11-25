@@ -1,0 +1,7 @@
+{
+  "fixtures": "passed",
+  "policy_replay_violations": 0,
+  "k5_policy_identity": "asserted inside evaluate_split",
+  "nonfinite_r": 0,
+  "join_rows": 43740
+}

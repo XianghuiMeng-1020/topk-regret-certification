@@ -1,0 +1,52 @@
+{
+  "coupled": {
+    "by_dataset": {
+      "gharchive": {
+        "fraction_nonpositive": 0.017901234567901235,
+        "fraction_within": 0.4189300411522634,
+        "fraction_above": 0.5631687242798354,
+        "fraction_zero_regret": 0.7842592592592593,
+        "mean_r_among_positive": 0.00010664819557940707
+      },
+      "tlc_yellow": {
+        "fraction_nonpositive": 0.0,
+        "fraction_within": 0.0,
+        "fraction_above": 1.0,
+        "fraction_zero_regret": 0.9837860082304526,
+        "mean_r_among_positive": 6.998174223139024e-07
+      }
+    },
+    "equal_weight_macro": {
+      "fraction_nonpositive": 0.008950617283950617,
+      "fraction_within": 0.2094650205761317,
+      "fraction_above": 0.7815843621399177,
+      "fraction_zero_regret": 0.884022633744856,
+      "mean_r_among_positive": 5.3674006500860486e-05
+    }
+  },
+  "strong": {
+    "by_dataset": {
+      "gharchive": {
+        "fraction_nonpositive": 0.024999999999999998,
+        "fraction_within": 0.4869341563786008,
+        "fraction_above": 0.48806584362139915,
+        "fraction_zero_regret": 0.7605967078189301,
+        "mean_r_among_positive": 0.00012231877629998805
+      },
+      "tlc_yellow": {
+        "fraction_nonpositive": 0.0007407407407407407,
+        "fraction_within": 0.06213991769547325,
+        "fraction_above": 0.9371193415637861,
+        "fraction_zero_regret": 0.971687242798354,
+        "mean_r_among_positive": 2.079735218606521e-05
+      }
+    },
+    "equal_weight_macro": {
+      "fraction_nonpositive": 0.012870370370370369,
+      "fraction_within": 0.274537037037037,
+      "fraction_above": 0.7125925925925927,
+      "fraction_zero_regret": 0.866141975308642,
+      "mean_r_among_positive": 7.155806424302664e-05
+    }
+  }
+}

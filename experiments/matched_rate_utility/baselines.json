@@ -1,0 +1,134 @@
+{
+  "0.10": {
+    "by_dataset": {
+      "gharchive": {
+        "random_mean": 3.194190976049397e-05,
+        "oracle_mean": 1.5650288940435495e-07,
+        "seeded_priority_mean": 3.4161145197073224e-05,
+        "oracle_zero": 0.9362139917695473
+      },
+      "tlc_yellow": {
+        "random_mean": 3.1701111647000146e-07,
+        "oracle_mean": 0.0,
+        "seeded_priority_mean": 1.493740648718807e-07,
+        "oracle_zero": 1.0
+      }
+    },
+    "equal_weight_macro": {
+      "random_mean": 1.6129460438481983e-05,
+      "oracle_mean": 7.825144470217748e-08,
+      "seeded_priority_mean": 1.715525963097255e-05,
+      "oracle_zero": 0.9681069958847737
+    }
+  },
+  "0.25": {
+    "by_dataset": {
+      "gharchive": {
+        "random_mean": 3.194190976049397e-05,
+        "oracle_mean": 4.674366954439856e-07,
+        "seeded_priority_mean": 3.1160570822684523e-05,
+        "oracle_zero": 0.9164609053497942
+      },
+      "tlc_yellow": {
+        "random_mean": 3.1701111647000146e-07,
+        "oracle_mean": 0.0,
+        "seeded_priority_mean": 2.1437504127204475e-07,
+        "oracle_zero": 1.0
+      }
+    },
+    "equal_weight_macro": {
+      "random_mean": 1.6129460438481983e-05,
+      "oracle_mean": 2.337183477219928e-07,
+      "seeded_priority_mean": 1.5687472931978285e-05,
+      "oracle_zero": 0.958230452674897
+    }
+  },
+  "0.50": {
+    "by_dataset": {
+      "gharchive": {
+        "random_mean": 3.194190976049397e-05,
+        "oracle_mean": 1.2530827992240155e-06,
+        "seeded_priority_mean": 3.3081687526411186e-05,
+        "oracle_zero": 0.8824074074074074
+      },
+      "tlc_yellow": {
+        "random_mean": 3.1701111647000146e-07,
+        "oracle_mean": 0.0,
+        "seeded_priority_mean": 3.318033522416443e-07,
+        "oracle_zero": 1.0
+      }
+    },
+    "equal_weight_macro": {
+      "random_mean": 1.6129460438481983e-05,
+      "oracle_mean": 6.265413996120078e-07,
+      "seeded_priority_mean": 1.6706745439326415e-05,
+      "oracle_zero": 0.9412037037037038
+    }
+  },
+  "0.75": {
+    "by_dataset": {
+      "gharchive": {
+        "random_mean": 3.194190976049397e-05,
+        "oracle_mean": 4.611860559270203e-06,
+        "seeded_priority_mean": 3.1656559522963365e-05,
+        "oracle_zero": 0.825445816186557
+      },
+      "tlc_yellow": {
+        "random_mean": 3.1701111647000146e-07,
+        "oracle_mean": 0.0,
+        "seeded_priority_mean": 3.191923296190317e-07,
+        "oracle_zero": 1.0
+      }
+    },
+    "equal_weight_macro": {
+      "random_mean": 1.6129460438481983e-05,
+      "oracle_mean": 2.3059302796351016e-06,
+      "seeded_priority_mean": 1.5987875926291197e-05,
+      "oracle_zero": 0.9127229080932785
+    }
+  },
+  "0.90": {
+    "by_dataset": {
+      "gharchive": {
+        "random_mean": 3.194190976049397e-05,
+        "oracle_mean": 1.093188787347535e-05,
+        "seeded_priority_mean": 3.181856333911991e-05,
+        "oracle_zero": 0.7800640146319159
+      },
+      "tlc_yellow": {
+        "random_mean": 3.1701111647000146e-07,
+        "oracle_mean": 2.504396906435255e-09,
+        "seeded_priority_mean": 3.2681554375600675e-07,
+        "oracle_zero": 0.992318244170096
+      }
+    },
+    "equal_weight_macro": {
+      "random_mean": 1.6129460438481983e-05,
+      "oracle_mean": 5.467196135190892e-06,
+      "seeded_priority_mean": 1.607268944143796e-05,
+      "oracle_zero": 0.8861911294010059
+    }
+  },
+  "0.95": {
+    "by_dataset": {
+      "gharchive": {
+        "random_mean": 3.194190976049397e-05,
+        "oracle_mean": 1.655394440838896e-05,
+        "seeded_priority_mean": 3.172523240761271e-05,
+        "oracle_zero": 0.7591509638293265
+      },
+      "tlc_yellow": {
+        "random_mean": 3.1701111647000146e-07,
+        "oracle_mean": 7.308189081074887e-09,
+        "seeded_priority_mean": 3.2237066522883296e-07,
+        "oracle_zero": 0.986121953335068
+      }
+    },
+    "equal_weight_macro": {
+      "random_mean": 1.6129460438481983e-05,
+      "oracle_mean": 8.280626298735018e-06,
+      "seeded_priority_mean": 1.602380153642077e-05,
+      "oracle_zero": 0.8726364585821973
+    }
+  }
+}

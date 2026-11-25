@@ -1,0 +1,215 @@
+{
+  "experiment": "real_order_statistic_evaluation",
+  "population": "real_data_panel_81_truths",
+  "input_hashes": {
+    "manifests/tlc_truth_manifest.jsonl": "942a6cff6abfd58e63b0d025b4a45da41d9a550ee64e2be4e3572b3dc7a9532c",
+    "manifests/gharchive_truth_manifest.jsonl": "745752764c77212af41fdb53d45934a4ad1cbee44caca4aa403ae2b8ae90978f",
+    "candidate_universes/tlc_pulocation_universe.json": "8d6604116210a0d3fa28e2f6d2874682a7b6fb90d49d730d5b7321db9d9b749f",
+    "candidate_universes/gharchive_repos_top2000.json": "706126c42ce5fa26371938b0889f1710d0934f6da437f7242be7b39bfc73a56a"
+  },
+  "box_ledger_sha256": "281ca9b676184d7450bbd2c8da225b94da312bb37d3c97855b1818ecc8c956cf",
+  "box_protocol_sha256": "a85d4177a4614036001fb76c5edeb26d78e3b4182fc709cb2d079414794caccc",
+  "n_truths": 81,
+  "evaluation_key": [
+    "truth_id",
+    "mechanism",
+    "epsilon",
+    "k",
+    "weight_family",
+    "replicate"
+  ],
+  "seed": {
+    "master": 20260807,
+    "format": "{MASTER}|{truth_id}|{mechanism}|{epsilon}|{k}|{weight_family}|{replicate}",
+    "digest": "SHA-256 first 16 hex digits modulo 2**31-1",
+    "not": "SeedKey"
+  },
+  "alpha": 0.05,
+  "sensitivity": 1,
+  "event": "E_OS = intersection_r Z_(n-r+1) <= u_r_plus and Z_(r) >= -u_r_minus",
+  "alpha_allocation": "eta_r_plus = eta_r_minus = (alpha/2) * w_r / sum(w)",
+  "tail_convention": {
+    "M1": "P(Z > u) for Laplace(0, 1/epsilon)",
+    "M2": "P(Z > u) strict geometric tail, integer u"
+  },
+  "os_coupled_method": "os_envelope_v1",
+  "os_strong_method": "os_matched_strong_envelope_v1",
+  "strong_definition": "min(C_sep, C_rank, C_pair, C_block5) at auxiliary t_s, then add delta_s once",
+  "k5_rule": "decision C_strong equals C_box for k<=5 before delta_s is added",
+  "normalization": "S = max(U(Y+), 1e-6); certify when C/S <= tau; no additive slack",
+  "primary_tau": 0.1,
+  "secondary_tau": [
+    0.05,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "inverse_frontier": "smallest 401-quantile of C/S whose equal-weight K reaches 0.50",
+  "aggregation": "mean within truth, mean within dataset, equal weight across the two datasets",
+  "bootstrap": {
+    "B": 1999,
+    "truth_cluster_seed": 20261126,
+    "circular_block_seed": 20261127,
+    "block_length_days": 7,
+    "unit": "truth vector"
+  },
+  "material_violation": {
+    "relative": 1e-06,
+    "absolute": 1e-08,
+    "rule": "left > right + 1e-6*(1+|right|) + 1e-8"
+  },
+  "membership_tolerance": "1e-8 relative on each declared order-statistic constraint",
+  "calibration_stop": "stop if a binomial tail exceeds its eta by more than 1e-8",
+  "weight_vectors": {
+    "uniform": {
+      "5": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "10": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "25": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "dcg": {
+      "5": [
+        1.0,
+        0.6309297535714575,
+        0.5,
+        0.43067655807339306,
+        0.38685280723454163
+      ],
+      "10": [
+        1.0,
+        0.6309297535714575,
+        0.5,
+        0.43067655807339306,
+        0.38685280723454163,
+        0.3562071871080222,
+        0.3333333333333333,
+        0.31546487678572877,
+        0.3010299956639812,
+        0.2890648263178879
+      ],
+      "25": [
+        1.0,
+        0.6309297535714575,
+        0.5,
+        0.43067655807339306,
+        0.38685280723454163,
+        0.3562071871080222,
+        0.3333333333333333,
+        0.31546487678572877,
+        0.3010299956639812,
+        0.2890648263178879,
+        0.27894294565112987,
+        0.27023815442731974,
+        0.26264953503719357,
+        0.2559580248098155,
+        0.25,
+        0.24465054211822604,
+        0.23981246656813146,
+        0.23540891336663824,
+        0.23137821315975915,
+        0.227670248696953,
+        0.22424382421757544,
+        0.22106472945750374,
+        0.21810429198553155,
+        0.21533827903669653,
+        0.21274605355336318
+      ]
+    },
+    "reciprocal": {
+      "5": [
+        1.0,
+        0.5,
+        0.3333333333333333,
+        0.25,
+        0.2
+      ],
+      "10": [
+        1.0,
+        0.5,
+        0.3333333333333333,
+        0.25,
+        0.2,
+        0.16666666666666666,
+        0.14285714285714285,
+        0.125,
+        0.1111111111111111,
+        0.1
+      ],
+      "25": [
+        1.0,
+        0.5,
+        0.3333333333333333,
+        0.25,
+        0.2,
+        0.16666666666666666,
+        0.14285714285714285,
+        0.125,
+        0.1111111111111111,
+        0.1,
+        0.09090909090909091,
+        0.08333333333333333,
+        0.07692307692307693,
+        0.07142857142857142,
+        0.06666666666666667,
+        0.0625,
+        0.058823529411764705,
+        0.05555555555555555,
+        0.05263157894736842,
+        0.05,
+        0.047619047619047616,
+        0.045454545454545456,
+        0.043478260869565216,
+        0.041666666666666664,
+        0.04
+      ]
+    }
+  },
+  "excluded_certificates": [
+    "m-swap",
+    "certificate_min_valid"
+  ],
+  "python": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "1.24.4"
+}

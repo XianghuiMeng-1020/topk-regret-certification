@@ -1,0 +1,25 @@
+{
+  "k5_score_gaps": [
+    {
+      "pair": "union",
+      "n": 14580,
+      "max_abs_k5_gap": 0.0
+    },
+    {
+      "pair": "direct",
+      "n": 14580,
+      "max_abs_k5_gap": 0.0
+    },
+    {
+      "pair": "os_rank1",
+      "n": 14580,
+      "max_abs_k5_gap": 0.0
+    },
+    {
+      "pair": "os_envelope",
+      "n": 14580,
+      "max_abs_k5_gap": 0.0
+    }
+  ],
+  "nonfinite_scores": 0
+}

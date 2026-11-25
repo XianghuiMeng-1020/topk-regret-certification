@@ -1,0 +1,108 @@
+{
+  "schema": "method-status-v1",
+  "vocabulary": {
+    "EXACT_ON_EVENT": "Exact maximum of the certificate objective over the stated event (exhaustive or count-feasible assignment).",
+    "VALID_UPPER_BOUND": "Proved upper bound on the exact objective over the same event; may be loose.",
+    "BASELINE_UPPER_BOUND": "Separate-competitor (strong) baseline; valid upper bound, used for comparison only.",
+    "KNOWN_INVALID": "Can return a value below a feasible objective. Must not certify.",
+    "CLOSED": "Entry point raises, so any call fails loudly."
+  },
+  "methods": {
+    "union_C_box / direct_C_box": {
+      "status": "EXACT_ON_EVENT",
+      "event": "UNION_BOUND_BOX or DIRECT_JOINT_BOX",
+      "role": "coupled certificate: one competitor, one assignment",
+      "used_in": [
+        "synthetic_box_calibration",
+        "real_box_evaluation"
+      ]
+    },
+    "union_C_box_plus": {
+      "status": "EXACT_ON_EVENT",
+      "event": "box intersected with nonnegative count feasibility (E_plus)",
+      "role": "count-feasible coupled certificate",
+      "used_in": [
+        "synthetic_count_feasibility",
+        "real_box_evaluation"
+      ]
+    },
+    "C_sep / C_rank / C_pair / C_block5": {
+      "status": "VALID_UPPER_BOUND",
+      "event": "same box event",
+      "role": "relaxations of the coupled assignment",
+      "used_in": [
+        "synthetic_box_calibration",
+        "synthetic_count_feasibility"
+      ]
+    },
+    "union_C_strong / direct_C_strong": {
+      "status": "BASELINE_UPPER_BOUND",
+      "event": "same box event",
+      "role": "min(C_sep, C_rank, C_pair, C_block5) at auxiliary t_s plus delta_s once; identical to C_box for k<=5",
+      "used_in": [
+        "synthetic_box_calibration",
+        "real_box_evaluation"
+      ]
+    },
+    "*_plus_raw relaxations": {
+      "status": "VALID_UPPER_BOUND",
+      "event": "E_plus",
+      "role": "upper bounds on C_box_plus; not monotone in the event",
+      "used_in": [
+        "synthetic_count_feasibility"
+      ]
+    },
+    "monotone_closed_min_original_and_raw_plus": {
+      "status": "VALID_UPPER_BOUND",
+      "event": "E_plus",
+      "role": "hybrid min(R_plus_raw, R_original)",
+      "used_in": [
+        "synthetic_count_feasibility"
+      ]
+    },
+    "C_OS_rank1_coupled / C_OS_rank1_strong": {
+      "status": "VALID_UPPER_BOUND",
+      "event": "FULL_ORDER_STATISTIC_EVENT via rank-1 box",
+      "role": "rank-1 OS box bounds",
+      "used_in": [
+        "real_order_statistic_evaluation"
+      ]
+    },
+    "C_OS_coupled_envelope (os_envelope_v1)": {
+      "status": "VALID_UPPER_BOUND",
+      "event": "FULL_ORDER_STATISTIC_EVENT",
+      "role": "assignment envelope; never calls m-swap",
+      "used_in": [
+        "synthetic_order_statistic",
+        "real_order_statistic_evaluation"
+      ]
+    },
+    "C_OS_strong_envelope (os_matched_strong_envelope_v1)": {
+      "status": "BASELINE_UPPER_BOUND",
+      "event": "FULL_ORDER_STATISTIC_EVENT",
+      "role": "same-event strong comparator",
+      "used_in": [
+        "real_order_statistic_evaluation"
+      ]
+    },
+    "certificate_mswap_os": {
+      "status": "KNOWN_INVALID",
+      "use": "DO_NOT_USE_FOR_CERTIFICATION",
+      "event": "FULL_ORDER_STATISTIC_EVENT",
+      "role": "stratified m-swap; default call raises TopKCertError; unsafe=True only reproduces the defect",
+      "evidence": "k=9 reordering witness and psi_m witness (tests/test_os_validity.py, tests/test_os_audit.py)",
+      "used_in": [
+        "tests only (counterexample)"
+      ]
+    },
+    "certificate_min_valid": {
+      "status": "CLOSED",
+      "use": "DO_NOT_USE_FOR_CERTIFICATION",
+      "role": "min(range-L1, m-swap); always raises",
+      "used_in": [
+        "none (always raises)"
+      ]
+    }
+  },
+  "decision_rule": "Certify iff C/S <= tau with S = max(U(Y+), 1e-6); no additive slack; never take a minimum across events."
+}
